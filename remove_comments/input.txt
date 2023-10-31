@@ -1,0 +1,22 @@
+//comment
+#include <stdio.h>
+
+// comment
+
+int main(void) // comment
+{
+    int n = 0;
+    scanf("%d", &n);
+    printf("%d", n);
+    // comment
+    return 0;
+}
+
+//comment
+
+/*
+
+comment // comment
+comment
+
+*/
