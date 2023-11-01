@@ -29,7 +29,7 @@ uint64_t seg_consec(uint64_t num)
 
 int main(void)
 {
-    uint64_t num = 0b00101010;
+    uint64_t num = 0b0010100;
     printf("%llu", seg_consec(num));
     return 0;
 }
