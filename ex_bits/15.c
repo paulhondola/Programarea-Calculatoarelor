@@ -2,10 +2,10 @@
 #include <stdint.h>
 
 /*
- Să se scrie o funcție care ia un număr fără semn n și returnează
- numărul de segmente de biți consecutivi egali.
- Exemplu: 000100 are 3 segmente: 000, 1, 00, deci programul va returna 3
- */
+Să se scrie o funcție care ia un număr fără semn n și returnează
+numărul de segmente de biți consecutivi egali.
+Exemplu: 000100 are 3 segmente: 000, 1, 00, deci programul va returna 3
+*/
 
 uint64_t seg_consec(uint64_t num)
 {
