@@ -12,20 +12,24 @@ void show_bits_32(uint32_t num)
     }
     printf("\n");
 }
-
+// 0001 1010 1000 1101
+// 
 uint32_t rotate_right_bit(uint32_t input)
 {
-    return (input >> 1) | ((input & 0x1) << 31);
+    uint8_t rot = 32 - 1;
+    return (input >> 1) | (input << rot);
 }
 
 uint32_t rotate_right_nibble(uint32_t input)
 {
-    return (input >> 4) | ((input & 0xf) << 28);
+    uint8_t rot = 32 - 4;
+    return (input >> 4) | (input << rot);
 }
 
 uint32_t rotate_right_byte(uint32_t input)
 {
-    return (input >> 8) | ((input & 0xff) << 24);
+    uint8_t rot = 32 - 8;
+    return (input >> 8) | (input << rot);
 }
 
 int main(void)

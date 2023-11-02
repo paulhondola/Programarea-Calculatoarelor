@@ -15,20 +15,20 @@ void show_bits_32(uint32_t num)
 
 uint32_t rotate_left_bit(uint32_t input)
 {
-    uint32_t top = 0x1 << 31;
-    return (input << 1) | ((input & top) >> 31);
+    uint8_t rot = 32 - 1;
+    return (input << 1) | (input >> rot);
 }
 
 uint32_t rotate_left_nibble(uint32_t input)
 {
-    uint32_t top = 0xf << 28;
-    return (input << 4) | ((input & top) >> 28);
+    uint8_t rot = 32 - 4;
+    return (input << 4) | (input >> rot);
 }
 
 uint32_t rotate_left_byte(uint32_t input)
 {
-    uint32_t top = 0xff << 24;
-    return (input << 8) | ((input & top) >> 24);
+    uint8_t rot = 32 - 8;
+    return (input << 8) | (input >> rot);
 }
 
 int main(void)
