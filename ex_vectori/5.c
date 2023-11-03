@@ -6,25 +6,40 @@
 
 uint8_t check_bigger(int8_t *array, uint8_t size, int8_t x, int8_t y)
 {
-    uint8_t min = ;
-    for(uint8_t i = 0; i < size; i++)
-        if(x <= array[i])
-            return 1;
-    return 0;
+    uint8_t min = 0, found = 0, index = 0;
+    while(!found)
+    { 
+        if(array[index] >= x && array[index] <= y)
+        {
+            min = array[index];
+            found++;
+        }
+        index++;
+    }
+
+    
+    while(index < size)
+    {
+        if(min > array[index] && array[index] >= x && array[index] <= y)
+            min = array[index];
+        index++;
+    }
+    
+    return min;
 }
 
 int main(void)
 {
-    int8_t k = 0;
-    scanf("%hhd", &k);
+    int8_t x = 0, y = 0;
+    scanf("%hhd %hhd", &x, &y);
 
-    if(k < -129 || k > 128)
+    if(x >= y)
         return -1;
 
     int8_t array[] = {7, -5, 4, 3, -9, 2, -8};
     uint8_t size = sizeof(array) / sizeof(array[0]);
 
-    printf("%hhu\n", check_bigger(array, size, k));
+    printf("%hhu\n", check_bigger(array, size, x, y));
 
     return 0;
 }
