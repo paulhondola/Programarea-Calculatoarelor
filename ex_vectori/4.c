@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <stdint.h>
 
-uint8_t check_bigger(int8_t *array, int8_t k, uint8_t size)
+uint8_t check_bigger(int8_t *array, uint8_t size, int8_t k)
 {
     for(uint8_t i = 0; i < size; i++)
         if(k < array[i])
@@ -24,7 +24,7 @@ int main(void)
     int8_t array[] = {7, -5, 4, 3, -9, 2, -8};
     uint8_t size = sizeof(array) / sizeof(array[0]);
 
-    printf("%hhu\n", check_bigger(array, k, size));
+    printf("%hhu\n", check_bigger(array, size, k));
 
     return 0;
 }
