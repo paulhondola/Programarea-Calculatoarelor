@@ -44,7 +44,6 @@ int main(void)
     read_array(array, size);
     print_array(array, size);
 
-    //cfree_at(array, &size, 0);
     insert(array, &size);
     printf("%u\n", size);
     print_array(array, size);
