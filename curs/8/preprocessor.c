@@ -35,7 +35,7 @@ int main(void)
 
     // directiva #if / #ifdef / #ifndef / #else / #endif
 
-
+    
     #ifndef DEBUG
         printf("Debugging is off\n");
     #endif
