@@ -17,7 +17,7 @@ int main(void)
 
             // check for newline
             if(ch == '\n')
-            newline_count++;
+                newline_count++;
         }
         else
             ch_count++;    
