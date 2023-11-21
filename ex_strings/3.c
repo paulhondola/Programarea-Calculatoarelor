@@ -18,7 +18,7 @@ int main(void)
 
     char input[NAME_SIZE];
 
-    unsigned int n = 0, i, j;
+    int n = 0, i, j, found = 0;
     
     scanf("%d\n", &n);
 
@@ -27,12 +27,19 @@ int main(void)
         if(fgets(input, NAME_SIZE, stdin) == NULL)
             return -1;
         
-        strcpy(*ptr++->nume, input);
+        for(j = 0; j < i, !found; j++)
+            if(strcmp((ptr + j)->nume, input) == 0)
+                (ptr + j)->nr_aparitii++, found++;
 
+        if(!found)
+        {
+            strcpy((ptr + i)->nume, input);
+            (ptr + i)->nr_aparitii = 1;
+        }
     }
 
     for(i = 0; i < n; i++)
-        printf("%s\n", *(ptr + i)->nume);
+        printf("%s ---> %u\n", (ptr + i)->nume, (ptr + i)->nr_aparitii);
 
     return 0;
 }
