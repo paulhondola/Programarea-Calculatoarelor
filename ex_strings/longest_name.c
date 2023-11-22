@@ -14,7 +14,10 @@ int main(void)
     for(unsigned int i = 0; i < n; i++)
     {
         if(fgets(text, SIZE, stdin) == NULL)
+        {
+            printf("fgets error\n");
             return -1;
+        }
         
         unsigned int new_size = strlen(text);
         if(new_size > max)
