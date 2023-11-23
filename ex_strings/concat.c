@@ -42,10 +42,22 @@ int main(void)
         if(name[strlen(name) - 1] == '\n')
             name[strlen(name) - 1] = 0;
 
+        // daca nu mai am spatiu in text, realoc
+
+        if(strlen(text) + strlen(name) + 2 > n * NAME_SIZE)
+        {
+            if((text = realloc(text, (strlen(text) + CHUNK) * sizeof(char))) == NULL)
+            {
+                free(text);
+                return -1;
+            }
+        }
         
         strcat(text, name);
         strcat(text, ", ");
     }
+
+    
 
     // penultimul nume
     if(fgets(name, NAME_SIZE, stdin) == NULL)
@@ -57,6 +69,16 @@ int main(void)
     if(name[strlen(name) - 1] == '\n')
         name[strlen(name) - 1] = 0;
 
+
+    if(strlen(text) + strlen(name) + 2 > n * NAME_SIZE)
+        {
+            if((text = realloc(text, (strlen(text) + CHUNK) * sizeof(char))) == NULL)
+            {
+                free(text);
+                return -1;
+            }
+        }
+
     strcat(text, name);
     strcat(text, " si ");
 
@@ -67,6 +89,17 @@ int main(void)
         free(text);
         return -1;
     }
+
+
+    if(strlen(text) + strlen(name) + 2 > n * NAME_SIZE)
+        {
+            if((text = realloc(text, (strlen(text) + CHUNK) * sizeof(char))) == NULL)
+            {
+                free(text);
+                return -1;
+            }
+        }
+
 
     if(name[strlen(name) - 1] == '\n')
         name[strlen(name) - 1] = 0;
