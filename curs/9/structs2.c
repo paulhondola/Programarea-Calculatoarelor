@@ -21,7 +21,6 @@ int main(void)
     str->a = 10;
     str->ch = 'a';
 
-
     // (*str).a = 10; ---> nope
     // str->a ---> da
 
