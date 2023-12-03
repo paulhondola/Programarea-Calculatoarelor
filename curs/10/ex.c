@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <string.h>
-#define LINE_LEN 32
-#define LINE_COUNT 32
+
 #define CHUNK 32
 
 FILE *open_input(void)
@@ -106,7 +105,7 @@ char **get_all_lines(FILE *file)
     while((line = get_line(file)) != NULL)
     {
         // verific daca mai am spatiu in vector
-        printf("%d -> %s", index, line);
+        
         if (index == current_size)
         {
             current_size += CHUNK;

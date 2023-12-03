@@ -15,7 +15,7 @@ Se vor folosi pointeri pentru rezolvarea problemei, nu indecși.
 
 #include <stdio.h>
 #include <stdlib.h>
-# define MAX 10
+# define MAX 100
 
 void citeste_numar(int *array, int *size, int max)
 {
@@ -40,13 +40,38 @@ void citeste_numar(int *array, int *size, int max)
     }
 }
 
-void afiseaza_numar(int *array, int size)
+
+void afiseaza_numere(int *array, int size)
 {
-    printf("Size: %d\n", size);
     for(int i = 0; i < size; i++)
         printf("%d ", *(array + i));
+
     printf("\n");
 }
+
+
+void sort3(int *array, int size)
+{
+    int aux, ok = 0;
+
+    do
+    {
+        ok = 0;
+
+        for(int i = 0; i < size - 1; i++)
+            if (( *(array + i) % 3) > ( *(array + i + 1) % 3))
+            {
+                aux = *(array + i);
+                *(array + i) = *(array + i + 1);
+                *(array + i + 1) = aux;
+                ok = 1;
+            }
+    } while (ok);
+
+    afiseaza_numere(array, size);
+}
+
+
 
 int main(void)
 {
@@ -54,7 +79,9 @@ int main(void)
 
     citeste_numar(v, &size, max);
 
-    afiseaza_numar(v, size);
+    printf("Size: %d\n", size);
+
+    sort3(v, size);
     
     return 0;
 }

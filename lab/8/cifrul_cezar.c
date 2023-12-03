@@ -36,7 +36,7 @@ void cypher(char *text, int size, int increment)
             {
                 text[i] += increment;
                 if(text[i] > 'z')
-                    text[i] = text[i] - 26 ;
+                    text[i] = text[i] - 26;
             }
             
             // litere mari
