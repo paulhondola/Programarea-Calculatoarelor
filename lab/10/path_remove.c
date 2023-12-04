@@ -90,8 +90,22 @@ void remove_all_headers(char **path_array)
 
     char *delimitator = "/";
 
-    char *root_path = NULL;
+    while(*iterator != NULL)
+    { 
+        char *root_path = NULL;
+        char *aux = NULL;
 
+        aux = strtok(*iterator, delimitator);
+
+        while(aux != NULL)
+        {
+            root_path = aux;
+            aux = strtok(NULL, delimitator);
+        }
+
+        *iterator = root_path;
+        iterator++;
+    }
     
 }
 
@@ -111,6 +125,20 @@ void print_paths(char **path_array)
 }
 
 
+void free_all(char **path_array)
+{
+    char **iterator = path_array;
+
+    if(iterator == NULL)
+        printf("Vectorul este gol\n");
+    else
+        while(*iterator != NULL)
+        {
+            free(*iterator);
+            iterator++;
+        }
+}
+
 int main(void)
 {
     char **path_array = NULL;
@@ -127,6 +155,9 @@ int main(void)
     remove_all_headers(path_array);
 
     print_paths(path_array);
+
+    //free_all(path_array);
+    free(path_array);
 
     return 0;
 }

@@ -24,8 +24,8 @@ int main(void)
 	int line_count = 0, word_count = 0, byte_count = 0;
 	printf("%d %d %d\n", line_count, word_count, byte_count);
 
-	int ch;
-	int prev_ch;
+	int ch = 0;
+	int prev_ch = 0;
 	while((ch = getchar()) != EOF)
 	{
 		byte_count++;
