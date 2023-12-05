@@ -3,7 +3,7 @@
 #include <string.h>
 
 #define SIZE 2000
-#define ASCII_COUNT 255
+#define ASCII_COUNT 127
 
 
 int histograma(char *line, int *tab)

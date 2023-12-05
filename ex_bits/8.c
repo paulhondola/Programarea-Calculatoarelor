@@ -36,7 +36,7 @@ uint16_t reset_bits(uint16_t num, uint8_t index)
     return num & ~(1 << index);
 }
 
-u_int16_t invert_bits(uint16_t num, uint8_t index)
+uint16_t invert_bits(uint16_t num, uint8_t index)
 {
     return num ^ (1 << index);
 }

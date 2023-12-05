@@ -36,7 +36,8 @@ void citeste_numar(int *array, int *size, int max)
             break;
         }
 
-        scanf("%d", &input);
+        if(scanf("%d", &input) != 1)
+            break;
     }
 }
 

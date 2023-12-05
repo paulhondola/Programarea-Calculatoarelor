@@ -6,10 +6,16 @@
 #include <stdio.h>
 #include <math.h>
 
-void read_array(int *array, unsigned int size)
+void read_array(int *array, unsigned int *size)
 {
-    for(unsigned int i = 0; i < size; i++)
-        scanf("%d", &array[i]);
+    for(unsigned int i = 0; i < *size; i++)
+    {
+        if(scanf("%d", &array[i]) != 1)
+        {
+            *size = i;
+            break;
+        }
+    }
 }
 
 void print_array(int *array, unsigned int size)
@@ -33,7 +39,7 @@ int main(void)
     scanf("%u", &size);
     int array[size];
 
-    read_array(array, size);
+    read_array(array, &size);
     print_array(array, size);
 
     return 0;

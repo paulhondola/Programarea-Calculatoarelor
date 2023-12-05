@@ -20,6 +20,7 @@ int main(void)
 
     uint8_t size = sizeof(array) / sizeof(array[0]);
 
+    printf("Minimul elementelor din vector este: ");
     printf("%d\n", minim(array, size));
 
     return 0;

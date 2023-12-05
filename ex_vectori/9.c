@@ -14,14 +14,17 @@ void print_array(int *array, unsigned int size)
 {
     for(unsigned int i = 0; i < size; i++)
         printf("%d ", array[i]);
+
     printf("\n");
 }
 
 void free_at(int *array, unsigned int *size, int position)
 {
-    (*size)++;
-    for(int i = *size - 2; i >= position; i--)
+    
+    for(int i = *size - 1; i >= position; i--)
         array[i + 1] = array[i];
+
+    (*size)++;
 }
 
 void insert(int *array, unsigned int *size)

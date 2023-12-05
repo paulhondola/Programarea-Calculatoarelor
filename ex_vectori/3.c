@@ -12,10 +12,14 @@ uint8_t check_poz_pare(int *array, uint8_t size)
     return 1;
 }
 
-void read_array(int *array, uint8_t size)
+void read_array(int *array, uint8_t * size)
 {
-    for(uint8_t i = 0; i < size; i++)
-        scanf("%d", &array[i]);
+    for(uint8_t i = 0; i < * size; i++)
+        if(scanf("%d", &array[i]) != 1)
+        {
+            * size = i;
+            break;
+        }
 }
 
 void print_array(int *array, uint8_t size)
@@ -33,7 +37,7 @@ int main(void)
 
     int array[size];
 
-    read_array(array, size);
+    read_array(array, &size);
 
     print_array(array, size);
 

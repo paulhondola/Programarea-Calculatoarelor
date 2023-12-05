@@ -4,9 +4,9 @@
 #include <stdio.h>
 #include <stdint.h>
 
-uint8_t check_bigger(int8_t *array, uint8_t size, int8_t x, int8_t y)
+int8_t check_bigger(int8_t *array, uint8_t size, int8_t x, int8_t y)
 {
-    uint8_t min = 0, found = 0, index = 0;
+    int8_t min = 0, found = 0, index = 0;
     while(!found)
     { 
         if(array[index] >= x && array[index] <= y)
@@ -17,7 +17,14 @@ uint8_t check_bigger(int8_t *array, uint8_t size, int8_t x, int8_t y)
         index++;
     }
 
-    
+
+    if(!found)
+    {
+        printf("No element found!\n");
+        exit(1);
+    }
+
+
     while(index < size)
     {
         if(min > array[index] && array[index] >= x && array[index] <= y)
@@ -39,7 +46,10 @@ int main(void)
     int8_t array[] = {7, -5, 4, 3, -9, 2, -8};
     uint8_t size = sizeof(array) / sizeof(array[0]);
 
-    printf("%hhu\n", check_bigger(array, size, x, y));
+    if(check_bigger(array, size, x, y) == (int8_t *)NULL)
+        printf("No element found!\n");
+    else
+        printf("%hhd\n", check_bigger(array, size, x, y));
 
     return 0;
 }

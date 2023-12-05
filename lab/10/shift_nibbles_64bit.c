@@ -81,7 +81,7 @@ uint64_t move_nibbles(uint64_t num)
     56 - 56
     */
     
-    for(int i = 0; i < sizeof(num) * 8; i += 8)
+    for(int i = 0; i < sizeof(num); i++)
     {
         odd_index = 0;
         even_index = 3;

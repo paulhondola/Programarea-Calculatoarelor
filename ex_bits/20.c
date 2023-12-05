@@ -32,7 +32,7 @@ void show_bits_16(uint16_t num)
 
 uint16_t combine(uint8_t n1, uint8_t n2)
 {
-    return n2 << 8 | n1;
+    return n2 << 4 | (n1 >> 4);
 }
 
 int main(void)
