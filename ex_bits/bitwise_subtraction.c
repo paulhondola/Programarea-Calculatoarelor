@@ -22,7 +22,7 @@ void show_bits(uint64_t num)
 uint64_t binary_subtract(uint64_t x, uint64_t y)
 {
     uint64_t sub = 0, mask = 1;
-    uint64_t carry = 0;
+    uint8_t carry = 0;
 
     for(uint8_t i = 0; i < 64; i++, mask <<= 1)
     {
@@ -47,7 +47,7 @@ uint64_t binary_subtract(uint64_t x, uint64_t y)
 
         uint8_t x_bit = (x & mask) != 0;
         uint8_t y_bit = (y & mask) != 0;
-        uint8_t sub_bit = x_bit ^ y_bit ^ carry;
+        uint64_t sub_bit = x_bit ^ y_bit ^ carry;
         carry = (~x_bit & y_bit) | (~x_bit & carry) | (y_bit & carry);
         sub |= sub_bit << i;
     }

@@ -75,9 +75,10 @@ void insert_prime_array(int *array, int *size)
 
 void free_at(int *array, int *size, int position)
 {
-    (*size)++;
-    for(int i = *size - 2; i >= position; i--)
+    for(int i = *size - 1; i >= position; i--)
         *(array + i + 1) = *(array + i);
+
+    (*size)++;
 }
 
 void insert_prime_array_2(int *array, int *size)

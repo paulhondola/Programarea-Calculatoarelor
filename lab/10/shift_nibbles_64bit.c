@@ -94,7 +94,6 @@ uint64_t move_nibbles(uint64_t num)
     
                 odd_index++;
             }
-
             else
             {
                 even |= (num & mask) >> even_index;
