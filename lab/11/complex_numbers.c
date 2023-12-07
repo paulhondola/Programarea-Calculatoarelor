@@ -18,62 +18,64 @@ Pentru compilare se adauga parametrul -lm la gcc.
 #include <stdlib.h>
 #include <math.h>
 
-typedef struct idk {
+#define CHUNK 10
+
+typedef struct {
     float real;
     float imag;
 } Complex;
 
-
-Complex sum(Complex a, Complex b)
+Complex sum(Complex *a, Complex *b)
 {
     Complex value;
-    value.real = a.real + b.real;
-    value.imag = a.imag + b.imag;
+    value.real = a->real + b->real;
+    value.imag = a->imag + b->imag;
     return value;
 }
 
-Complex dif(Complex a, Complex b)
+Complex dif(Complex *a, Complex *b)
 {
     Complex value;
-    value.real = a.real - b.real;
-    value.imag = a.imag - b.imag;
+    value.real = a->real - b->real;
+    value.imag = a->imag - b->imag;
     return value;
 }
 
 // (a + bi) * (c + di) = (a * c - b * c + (b * c + a * d)i)
-Complex multiply(Complex a, Complex b)
+Complex multiply(Complex *a, Complex *b)
 {
     Complex value;
-    value.real = (a.real * b.real) - (a.imag * b.imag);
-    value.imag = (a.imag * b.real) + (a.real * b.imag);
+    value.real = (a->real * b->real) - (a->imag * b->imag);
+    value.imag = (a->imag * b->real) + (a->real * b->imag);
     return value;
 }
 
 // (a + bi) / (c + di) = (ac + bd + (bc - ad)i) / (c * c + d * d)
 // real - (ac + bd) / (cc + dd)
 // imag - (bc - ad) / (cc + dd)
-Complex division(Complex a, Complex b)
+Complex division(Complex *a, Complex *b)
 {
-    if(b.real == 0 && b.imag == 0)
+    if(b->real == 0 && b->imag == 0)
     {
         printf("Nu se poate imparti la 0\n");
         exit(1);
     }
 
     Complex value;
-    value.real = ((a.real * b.real) * (a.imag * b.imag)) / ((b.real * b.real) * (b.imag * b.imag));
-    value.imag = ((a.imag * b.real) * (a.real * b.imag)) / ((b.real * b.real) * (b.imag * b.imag));
+    value.real = ((a->real * b->real) * (a->imag * b->imag)) / ((b->real * b->real) * (b->imag * b->imag));
+    value.imag = ((a->imag * b->real) * (a->real * b->imag)) / ((b->real * b->real) * (b->imag * b->imag));
     return value;
 }
 
-double module(Complex number)
+double module(Complex *number)
 {
-    return sqrt((number.real * number.real) + (number.imag * number.imag));
+    return sqrt((number->real * number->real) + (number->imag * number->imag));
 }
 
-void print_complex(Complex number)
+
+void print_complex(Complex *number)
 {
-    printf("Numarul complex este %.02f+%.02fi\n", number.real, number.imag);
+    printf("Numarul complex este %.02f+%.02fi\n", number->real, number->imag);
 }
 
 int input(Complex *number)
@@ -81,43 +83,82 @@ int input(Complex *number)
     return scanf("%f%f", &number->real, &number->imag);
 }
 
+
+Complex *input_array(int *size)
+{
+    Complex *array = NULL;
+
+    Complex input = {0, 0};
+
+    int index = 0;
+    int current_size = 0;
+ 
+    while(1)
+    {
+        
+        if(scanf("%f%f", &input.real, &input.imag) != 2)
+        {
+            break;
+        }
+
+        if(index == current_size)
+        {
+            current_size += CHUNK;
+            array = realloc(array, current_size * sizeof(Complex));
+
+            if(array == NULL)
+            {
+                printf("Nu s-a putut aloca memorie\n");
+                exit(1);
+            }
+        }
+
+        array[index++] = input;
+    }
+
+    * size = index;
+
+    return array;
+}
+
+void print_array(Complex *array, int size)
+{
+    printf("Size: %d\n", size);
+    for(int i = 0; i < size; i++)
+    {
+        print_complex(&array[i]);
+    }
+}
+
+Complex sum_of_all(Complex *array, int size)
+{
+    Complex SUM = {0, 0};
+
+    for(int i = 0; i < size; i++)
+    {
+        SUM = sum(&SUM, &array[i]);
+    }
+
+    return SUM;
+}
+
+
 int main(void)
 {   
-    Complex a, b;
-    
-    if(input(&a) != 2)
-        return -1;
+    Complex *array = NULL;
 
-    if(input(&b) != 2)
-        return -1;
+    int size = 0;
 
-    print_complex(a);
-    print_complex(b);
+    array = input_array(&size);
 
-    Complex c;
-    c = sum(a, b);
+    print_array(array, size);
 
-    printf("Suma -> ");
-    print_complex(c);
+    Complex SUM = {0, 0};
 
-    c = dif(a, b);
+    SUM = sum_of_all(array, size);
 
-    printf("Diferenta -> ");
-    print_complex(c);
-    
-   
-    c = multiply(a, b);
-
-    printf("Produsul -> ");
-    print_complex(c);
-    
-    c = division(a, b);
-
-    printf("Raportul -> ");
-    print_complex(c);
-
-    printf("Modulul lui a este -> %lf\n", module(a));
-    printf("Modulul lui b este -> %lf\n", module(b));
+    printf("Suma tuturor numerelor complexe este:\n");
+    print_complex(&SUM);
     
     return 0;
 }
