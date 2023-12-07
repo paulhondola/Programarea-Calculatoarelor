@@ -5,123 +5,98 @@ Se citește de la intrarea standard un număr necunoscut de perechi de 2 numere 
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define CHUNK 10
+#define CHUNK 20
 
 typedef struct
 {
-    int x;
-    int y;
+    int64_t x;
+    int64_t y;
 } point;
 
-float distance(point *p)
+double distance(point *p)
 {
     return sqrt(p->x * p->x + p->y * p->y);
 }
 
-point *input_point(void)
+point *input_array(uint64_t *size)
 {
-    point *p = NULL;
+    point element;
+    point *array = NULL;
 
-    if((p = malloc(sizeof(point))) == NULL)
-    {
-        return NULL;
-    }
-
-    if(scanf("%d.%d", &p->x, &p->y) != 2)
-    {
-        return NULL;
-    }
-
-    return p;
-}
-
-point ** input_array(void)
-{
-    point **array = NULL;
-
-    int index = 0;
-    int size = 0;
+    uint64_t index = 0;
+    uint64_t current_size = 0;
 
     while(1)
     {
-        if(index == size)
+        if(scanf("%lld.%lld", &element.x, &element.y) != 2)
         {
-            size += CHUNK;
-
-            if((array = realloc(array, size * sizeof(point *))) == NULL)
-            {
-                return NULL;
-            }
-        }
-
-        if((array[index] = input_point()) == NULL)
-        {
+            printf("Input ended\n");
             break;
         }
 
+        if(index == current_size)
+        {
+            current_size += CHUNK;
+            array = realloc(array, current_size * sizeof(point));
+
+            if(array == NULL)
+            {
+                perror("realloc");
+                exit(EXIT_FAILURE);
+            }
+        }
+
+        *(array + index) = element;
         index++;
     }
-
+    if(array != NULL)
+        *size = index;
+    
     return array;
 }
 
-void print_points(point **array)
+void print_array(point *array, uint64_t size)
 {
-    point **iterator = array;
-
-    printf("Points:\n");
-
-    while(*iterator != NULL)
+    for(uint64_t i = 0; i < size; i++)
     {
-        printf("%d.%d\n", (*iterator)->x, (*iterator)->y);
-        iterator++;
+        printf("x = %lld , y = %lld\n", (array + i)->x, (array + i)->y);
     }
+    printf("\n");
 }
 
 
-void free_array(point **array)
+void closest_to_origin(point *array, uint64_t size)
 {
-    point **iterator = array;
+    double min = distance(array);
+    point *closest = array;
 
-    while(*iterator != NULL)
+    for(uint64_t i = 1; i < size; i++)
     {
-        free(*iterator);
-        iterator++;
-    }
-}
-
-
-void min_distance(point **array)
-{
-    float min = distance(*array);
-
-    point ** iterator = array;
-
-    while(*iterator != NULL)
-    {
-        if(min > distance(*iterator))
-            min = distance(*iterator);
-
-        iterator++;
+        if(distance(array + i) < min)
+        {
+            min = distance(array + i);
+            closest = array + i;
+        }
     }
 
-    printf("The minimum distance to origin is: %f\n", min);
+    printf("Closest to origin: x = %lld , y = %lld , distance = %lf\n", closest->x, closest->y, min);
 }
 
 int main(void)
 {
-    point **point_arr = NULL;
+    point *array = NULL;
+    uint64_t size = 0;
+    array = input_array(&size);
 
-    point_arr = input_array();
+    if(array == NULL)
+    {
+        printf("Array is empty\n");
+        return 0;
+    }
 
-    print_points(point_arr); 
+    print_array(array, size);
 
-
-    min_distance(point_arr);
-
-
-    free_array(point_arr);
-    free(point_arr);
-
+    closest_to_origin(array, size);
+    
     return 0;
 }

@@ -27,7 +27,12 @@ int main(void)
     
     while(1)
     {
-        scanf("%d", &input);
+        if(scanf("%d", &input) == 0)
+        {
+            perror("scanf");
+            return -1;
+        }
+        
         if(!input)
             break;
 
