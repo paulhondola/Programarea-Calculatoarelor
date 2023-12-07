@@ -4,12 +4,11 @@ Să se implementeze o bază de date ce modelează animale. Animelele pot fi inse
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #define CHUNK 10
 
-enum animal_type {Insect = 1, Bird, Mammal, Fish};
-
-#pragma region database
+#pragma region DATA_STRUCTURES
 
 typedef struct
 {
@@ -17,7 +16,7 @@ typedef struct
     int nr_legs;
     int lifespan;
 
-} insect;
+} INSECT_T;
 
 typedef struct
 {
@@ -25,7 +24,7 @@ typedef struct
     float flight_speed;
     float wing_span;
 
-} bird;
+} BIRD_T;
 
 typedef struct
 {
@@ -34,7 +33,7 @@ typedef struct
     float height;
     enum {carnivore, herbivore, omnivore} food_type;
 
-} mammal;
+} MAMMAL_T;
 
 typedef struct 
 {
@@ -43,292 +42,278 @@ typedef struct
     float max_depth;
     float salinity;
 
-} fish;
+} FISH_T;
+
+typedef union
+{
+    INSECT_T insect;
+    BIRD_T bird;
+    MAMMAL_T mammal;
+    FISH_T fish;
+
+} ANIMAL_DETAILS_T;
+
+typedef struct
+{
+    enum {INSECT = 1, BIRD, MAMMAL, FISH} type;
+    ANIMAL_DETAILS_T animal;
+
+} ANIMAL_T;
+
 
 #pragma endregion
 
-#pragma region functions -> print
-
-void print_insect(insect *insect)
+ANIMAL_T *add_to_database(ANIMAL_T *array, uint64_t *size)
 {
-    printf("Insect: \n");
-    printf("Number of legs: %d\n", insect->nr_legs);
-    printf("Lifespan: %d\n", insect->lifespan);
-}
+    static uint64_t allocated_size = 0;
 
-void print_bird(bird *bird)
-{
-    printf("Bird: \n");
-    printf("Flight speed: %f\n", bird->flight_speed);
-    printf("Wing span: %f\n", bird->wing_span);
-}
+    ANIMAL_T input;
 
-void print_mammal(mammal *mammal)
-{
-    printf("Mammal: \n");
-    printf("Weight: %f\n", mammal->weight);
-    printf("Height: %f\n", mammal->height);
-    printf("Food type: %d\n", mammal->food_type);
-}
-
-void print_fish(fish *fish)
-{
-    printf("Fish: \n");
-    printf("Weight: %f\n", fish->weight);
-    printf("Max depth: %f\n", fish->max_depth);
-    printf("Salinity: %f%%\n", fish->salinity);
-}
-
-#pragma endregion
-
-#pragma region functions -> add
-
-insect *add_insect(void)
-{
-    insect *insect = NULL;
-
-    if((insect = malloc(sizeof(insect))) == NULL)
-    {
-        printf("Error allocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Number of legs: ");
-    if(scanf("%d", &insect->nr_legs) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Lifespan: ");
-    if(scanf("%d", &insect->lifespan) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    return insect;
-}
-
-bird *add_bird(void)
-{
-    bird *bird = NULL;
-
-    if((bird = malloc(sizeof(bird))) == NULL)
-    {
-        printf("Error allocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Flight speed: ");
-    if(scanf("%f", &bird->flight_speed) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Wing span: ");
-    if(scanf("%f", &bird->wing_span) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    return bird;
-}
-
-mammal *add_mammal(void)
-{
-    mammal *mammal = NULL;
-
-    if((mammal = malloc(sizeof(mammal))) == NULL)
-    {
-        printf("Error allocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Weight: ");
-    if(scanf("%f", &mammal->weight) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Height: ");
-    if(scanf("%f", &mammal->height) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Food type: ");
-    if(scanf("%d", &mammal->food_type) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    return mammal;
-}
-
-fish *add_fish(void)
-{
-    fish *fish = NULL;
-
-    if((fish = malloc(sizeof(fish))) == NULL)
-    {
-        printf("Error allocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Weight: ");
-    if(scanf("%f", &fish->weight) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Max depth: ");
-    if(scanf("%f", &fish->max_depth) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    printf("Salinity: ");
-    if(scanf("%f", &fish->salinity) != 1)
-    {
-        printf("Invalid input!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    return fish;
-}
-
-#pragma endregion
-
-
-void **allocate_memory(void)
-{
-    void **database = NULL;
-
-    if((database = malloc(CHUNK * sizeof(void *))) == NULL)
-    {
-        printf("Error allocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    return database;
-}
-
-
-void **realloc_memory(void **database, int *size)
-{
-    if((database = realloc(database, (*size + CHUNK) * sizeof(void *))) == NULL)
-    {
-        printf("Error reallocating memory!\n");
-        exit(EXIT_FAILURE);
-    }
-
-    *size += CHUNK;
-
-    return database;
-}
-
-void add_animal(char **database, int *size)
-{
-    int option = -1;
-
-    printf("What type of animal do you want to add?\n");
+    printf("Enter animal type:\n");
     printf("1. Insect\n");
     printf("2. Bird\n");
     printf("3. Mammal\n");
     printf("4. Fish\n");
-    printf("0. Exit\n");
 
-    scanf("%d", &option);
-
-    switch (option)
+    if(scanf("%d", &input.type) != 1)
     {
-        case Insect:
-            printf("Insect\n");
+        printf("Invalid input!\n");
+        return array;
+    }
 
-            if(*size % CHUNK == 0)
+    switch(input.type)
+    {
+        case INSECT:
+
+            printf("Enter number of legs: ");
+            if(scanf("%d", &input.animal.insect.nr_legs) != 1)
             {
-                database = realloc_memory(database, *size * sizeof(void *));
+                printf("Invalid input!\n");
+                return array;
             }
 
-            database[*size] = add_insect();
-            (*size)++;
-
-            break;
-        case Bird:
-            printf("Bird\n");
-
-            if(*size % CHUNK == 0)
+            printf("Enter lifespan: ");
+            if(scanf("%d", &input.animal.insect.lifespan) != 1)
             {
-                database = realloc_memory(database, *size * sizeof(void *));
+                printf("Invalid input!\n");
+                return array;
             }
 
-            database[*size] = add_bird();
-            (*size)++;
-
             break;
-        case Mammal:
-            printf("Mammal\n");
 
-            if(*size % CHUNK == 0)
+        case BIRD:
+
+            printf("Enter flight speed: ");
+            if(scanf("%f", &input.animal.bird.flight_speed) != 1)
             {
-                database = realloc_memory(database, *size * sizeof(void *));
+                printf("Invalid input!\n");
+                return array;
             }
 
-            database[*size] = add_mammal();
-            (*size)++;
-
-            break;
-        case Fish:
-            printf("Fish\n");
-
-            if(*size % CHUNK == 0)
+            printf("Enter wing span: ");
+            if(scanf("%f", &input.animal.bird.wing_span) != 1)
             {
-                database = realloc_memory(database, *size * sizeof(void *));
+                printf("Invalid input!\n");
+                return array;
             }
 
-            database[*size] = add_fish();
-            (*size)++;
+            break;
+
+        case MAMMAL:
+
+            printf("Enter weight: ");
+            if(scanf("%f", &input.animal.mammal.weight) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
+
+            printf("Enter height: ");
+            if(scanf("%f", &input.animal.mammal.height) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
+
+            printf("Enter food type: ");
+            printf("1. Carnivore\n");
+            printf("2. Herbivore\n");
+            printf("3. Omnivore\n");
+
+            if(scanf("%d", &input.animal.mammal.food_type) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
 
             break;
+
+        case FISH:
+
+            printf("Enter weight: ");
+            if(scanf("%f", &input.animal.fish.weight) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
+
+            printf("Enter max depth: ");
+            if(scanf("%f", &input.animal.fish.max_depth) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
+
+            printf("Enter salinity: ");
+            if(scanf("%f", &input.animal.fish.salinity) != 1)
+            {
+                printf("Invalid input!\n");
+                return array;
+            }
+
+            break;
+
         default:
-            printf("Exit\n");
-            break;
+            printf("Invalid input!\n");
+            return array;
     }
-}
 
-
-void free_all(void **database, int * size)
-{
-    for(int i = 0; i < *size; i++)
+    if(*size == allocated_size)
     {
-        free(database + i);
+        allocated_size += CHUNK;
+        array = realloc(array, allocated_size * sizeof(ANIMAL_T));
+    }
+    
+    if(array != NULL)
+    {
+        array[*size] = input;
+        (*size)++;
     }
 
-    *size = 0;
+    return array;
 }
+
+
+void print_array(ANIMAL_T *array, uint64_t size)
+{
+    for(uint64_t i = 0; i < size; i++)
+    {
+        switch (array[i].type)
+        {
+        case INSECT:
+
+            printf("-------------------------------\n");
+            printf("Insect\n");
+            printf("Number of legs: %d\n", array[i].animal.insect.nr_legs);
+            printf("Lifespan: %d\n", array[i].animal.insect.lifespan);
+            printf("-------------------------------\n");
+            break;
+        
+        case BIRD:
+            
+            printf("-------------------------------\n");
+            printf("Bird\n");
+            printf("Flight speed: %f\n", array[i].animal.bird.flight_speed);
+            printf("Wing span: %f\n", array[i].animal.bird.wing_span);
+            printf("-------------------------------\n");
+            break;
+
+        case MAMMAL:
+
+            printf("-------------------------------\n");
+            printf("Mammal\n");
+            printf("Weight: %f\n", array[i].animal.mammal.weight);
+            printf("Height: %f\n", array[i].animal.mammal.height);
+            printf("Food type: ");
+
+            switch (array[i].animal.mammal.food_type)
+            {
+            case carnivore:
+                printf("Carnivore\n");
+                break;
+            
+            case herbivore:
+                printf("Herbivore\n");
+                break;
+
+            case omnivore:
+                printf("Omnivore\n");
+                break;
+
+            default:
+                break;
+            }
+
+            printf("-------------------------------\n");
+            break;
+
+        case FISH:
+
+            printf("-------------------------------\n");
+            printf("Fish\n");
+            printf("Weight: %f\n", array[i].animal.fish.weight);
+            printf("Max depth: %f\n", array[i].animal.fish.max_depth);
+            printf("Salinity: %f\n", array[i].animal.fish.salinity);
+            printf("-------------------------------\n");
+            break;
+
+        default:
+            break;
+        }
+    }
+}
+
+
+void menu(ANIMAL_T *array, uint64_t size)
+{
+    uint8_t option = 0;
+
+    while(option != 4)
+    {
+        printf("1. Add animal\n");
+        printf("2. Print animals\n");
+        printf("3. Delete animal\n");
+        printf("4. Exit\n");
+
+        if(scanf("%hhu", &option) != 1)
+        {
+            printf("Invalid input!\n");
+            continue;
+        }
+
+        switch (option)
+        {
+        case 1:
+            array = add_to_database(array, &size);
+            break;
+        
+        case 2:
+            print_array(array, size);
+            break;
+
+        case 3:
+            break;
+
+        case 4:
+            break;
+
+        default:
+            printf("Invalid input!\n");
+            break;
+        }
+    }
+}
+
 
 int main(void)
 {
-    void **database = NULL;
-    int size = 0;
+    ANIMAL_T *array = NULL;
 
-    database = allocate_memory();
+    uint64_t size = 0;
 
-    //add_animal(database);
+    menu(array, size);
 
-
-    free_all(database, &size);
-    free(database);
+    free(array);
 
     return 0;
 }
-
-
