@@ -159,6 +159,8 @@ int main(void)
 
     printf("Suma tuturor numerelor complexe este:\n");
     print_complex(&SUM);
+
+    free(array);
     
     return 0;
 }

@@ -98,5 +98,7 @@ int main(void)
 
     closest_to_origin(array, size);
     
+    free(array);
+    
     return 0;
 }
