@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdint.h>
 
-#define SIZE 100
+#define SIZE 1000
 
 int main(void)
 {
@@ -17,15 +17,14 @@ int main(void)
         exit(-1);
     }
 
-    uint32_t number = 0;
     int read = 0;
     uint32_t array[SIZE];
 
-    while ((read = fread(array, sizeof(uint32_t), SIZE, f)) > 0)
+    while ((read = (int)fread(array, sizeof(uint32_t), SIZE, f)) > 0)
     {
-        for(int i = 0; i < read; ++i)
+        for(int i = 0; i < read; i++)
         {
-            printf("%u ", array[i]);
+            printf("%08x -> %d\n", array[i], array[i]);
         }
     }
     
