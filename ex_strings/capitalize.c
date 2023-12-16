@@ -11,6 +11,8 @@ int main(void)
     if(fgets(text, SIZE, stdin) == NULL)
         return -1;
     
+    if(text[strlen(text) - 1] == '\n')
+            text[strlen(text) - 1] = 0;
     printf("Sirul original: %s\n", text);
 
     unsigned int new_size = strlen(text);

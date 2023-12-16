@@ -1,0 +1,3 @@
+/*
+Sa se scrie si testeze o functie ce primeste ca argument o cale de fisier sursa si o cale de fisier destinatie. Programul va copia continutul fisierului sursa in fisierul destinatie. Se vor folosi functii specializate de lucru cu fisiere binare.
+*/

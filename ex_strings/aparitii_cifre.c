@@ -18,6 +18,7 @@ int main(void)
         return -1;
 
     printf("Textul citit este: %s\n", text);
+    printf("Lungimea textului este: %ld\n", strlen(text) - 1);
 
     for(int i = 0; i < strlen(text); i++)
         if(isalpha(text[i]))

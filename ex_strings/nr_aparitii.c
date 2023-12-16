@@ -19,27 +19,35 @@ int main(void)
     char input[NAME_SIZE];
 
     int n = 0, i, j, found = 0;
+    int new_size = 0;
     
     scanf("%d\n", &n);
+
 
     for(i = 0; i < n; i++)
     {
         if(fgets(input, NAME_SIZE, stdin) == NULL)
             return -1;
-        
-        for(j = 0; j < i, !found; j++)
-            if(strcmp((ptr + j)->nume, input) == 0)
-                (ptr + j)->nr_aparitii++, found++;
+
+        if(input[strlen(input) - 1] == '\n')
+            input[strlen(input) - 1] = 0;
+
+        found = 0;
+
+        for(j = 0; j < i && !found; j++)
+            if((strcmp(persoane[j].nume, input)) == 0)
+                persoane[j].nr_aparitii++, found++;
 
         if(!found)
         {
-            strcpy((ptr + i)->nume, input);
-            (ptr + i)->nr_aparitii = 1;
+            strcpy(persoane[i].nume, input);
+            persoane[i].nr_aparitii = 1;
+            new_size++;
         }
     }
 
-    for(i = 0; i < n; i++)
-        printf("%s ---> %u\n", (ptr + i)->nume, (ptr + i)->nr_aparitii);
+    for(i = 0; i < new_size; i++)
+        printf("%s ---> %u\n", persoane[i].nume, persoane[i].nr_aparitii);
 
     return 0;
 }

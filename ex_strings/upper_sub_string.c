@@ -18,21 +18,20 @@ int upper_sub_string(char *text_1, char *text_2)
 
     unsigned int len_1 = strlen(text_1);
     unsigned int len_2 = strlen(text_2);
-    for(unsigned int i = 0; i < len_1; i++)
+    for(unsigned int i = 0; i < len_1;)
     {
         char *ptr = strstr(text_1 + i, text_2);
 
-        if(ptr != NULL)
-        {
-            num_apparitions++;
-            i = ptr - text_1;
-
-            modify_string(text_1, i, i + len_2);
-        }
-        else
-        {
+        if(ptr == NULL)
             break;
-        }
+
+        num_apparitions++;
+
+        i = ptr - text_1;
+
+        modify_string(text_1, i, i + len_2);
+
+        i += len_2;
     }
 
     return num_apparitions;
@@ -40,7 +39,7 @@ int upper_sub_string(char *text_1, char *text_2)
 
 int main(void)
 {
-    char s1[] = "Acesta este un string si stringul este terminat cu 0x00";
+    char s1[] = "Acesta este un stringstring si stringul este terminat cu 0x00";
     char s2[] = "string";
     int r = upper_sub_string(s1, s2);
 

@@ -19,11 +19,11 @@ r = 2
 int string_replace(char *main_text, char *str_to_replace, char *str_replacement)
 {
     int nr_replacements = 0;
-    
+    char empty_string[SIZE];
 
-    for(unsigned int i = 0; i < strlen(main_text); i++)
+    for(unsigned int i = 0; i < strlen(main_text);)
     {
-        char empty_string[SIZE];
+        strcpy(empty_string, "");
 
         char *ptr = strstr(main_text + i, str_to_replace);
 
@@ -44,7 +44,7 @@ int string_replace(char *main_text, char *str_to_replace, char *str_replacement)
         strcpy(main_text + (ptr - main_text), empty_string);
 
 
-        i += ptr - main_text;
+        i += ptr - main_text + strlen(str_replacement);
     }
 
     return nr_replacements;

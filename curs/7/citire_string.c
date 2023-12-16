@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdint.h>
-
+#include <string.h>
 #define SIZE 1000
 
 int main(void)
@@ -13,12 +13,11 @@ int main(void)
     printf("%s\n", string1);
 
     char string3[] = "PAUL";
-    char *string4 = "PAUL"; // READ ONLY - NEMOFICABIL
+    char *string4 = "PAUL"; // READ ONLY - NEMODIFICABIL
 
     // string4[0] = 'B'; --> ERROR
 
     printf("%s\n", string4);
-
 
     // TXT[0] - PRIMUL CARACTER / *TXT
     // TXT[1] - AL DOILEA CARACTER / *(TXT + 1)
@@ -26,12 +25,21 @@ int main(void)
     // TXT[3] - AL PATRULEA CARACTER / *(TXT + 3)
 
     char empty_string[] = ""; // memorat pe un byte
-
+    printf("%d\n", strlen(empty_string));
     // CITIREA DE LA TASTATURA A UNUI SIR DE CARACTERE
 
     char input[10];
     scanf("%9s", input); 
     printf("string: %s\n", input);
+
+    if(input[9] == 0)
+    {
+        printf("sirul este complet\n");
+    }
+    else
+    {
+        printf("sirul nu este complet\n");
+    }
 
     // SCANF - SE OPRESTE LA SPATIU / ENTER / EOF
 

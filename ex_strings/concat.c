@@ -28,7 +28,7 @@ int main(void)
     text[0] = 0;
 
     //printf("text = %s\n", text);
-
+    
     for(unsigned int i = 0; i < n - 2; i++)
     {
         
