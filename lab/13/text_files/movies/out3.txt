@@ -1,0 +1,1794 @@
+El Mariachi | 1992 | 7000
+Primer | 2004 | 7000
+Pink Flamingos | 1972 | 12000
+Slacker | 1991 | 23000
+In the Company of Men | 1997 | 25000
+Clerks. | 1994 | 27000
+Funny Ha Ha | 2002 | 30000
+The Signal | 2007 | 50000
+Tiny Furniture | 2010 | 50000
+Supporting Characters | 2012 | 60000
+Pi | 1998 | 68000
+Eraserhead | 1977 | 100000
+Your Sister&#39;s Sister | 2011 | 120000
+The Texas Chain Saw Massacre | 1974 | 140000
+The Towering Inferno | 1974 | 140000
+Once | 2006 | 150000
+Another Earth | 2011 | 175000
+Weekend | 2011 | 190000
+The Man from Earth | 2007 | 200000
+Yesterday Was a Lie | 2009 | 200000
+Urbania | 2000 | 225000
+Chasing Amy | 1997 | 250000
+Like Crazy | 2011 | 250000
+Love and Other Catastrophes | 1996 | 250000
+Lovely and Amazing | 2001 | 250000
+The Incredibly True Adventures of Two Girls in Love | 1995 | 250000
+Pieces of April | 1993 | 300000
+Sisters in Law | 2005 | 300000
+Wendy and Lucy | 2008 | 300000
+When the Cat&#39;s Away | 1996 | 300000
+The Evil Dead | 1981 | 375000
+Monty Python and the Holy Grail | 1975 | 400000
+My Beautiful Laundrette | 1985 | 400000
+Napoleon Dynamite | 2004 | 400000
+Quinceanera | 2006 | 400000
+Brick | 2005 | 450000
+Conversations with Other Women | 2005 | 450000
+Paranormal Activity | 2007 | 450000
+Fireproof | 2008 | 500000
+Monsters | 2010 | 500000
+The Blair Witch Project | 1999 | 600000
+L.I.E. | 2001 | 700000
+Safety Not Guaranteed | 2012 | 750000
+Undead | 2003 | 750000
+American Graffiti | 1973 | 777000
+Dead Snow | 2009 | 800000
+Kill List | 2011 | 800000
+Welcome to the Dollhouse | 1995 | 800000
+London To Brighton | 2006 | 825000
+Circumstance | 2011 | 900000
+Hard Candy | 2005 | 950000
+Ajami | 2009 | 1000000
+Beyond the Valley of the Dolls | 1970 | 1000000
+Blue Valentine | 2010 | 1000000
+Chernobyl Diaries | 2012 | 1000000
+Frozen River | 2008 | 1000000
+Hellraiser | 1987 | 1000000
+Junebug | 2005 | 1000000
+Martha Marcy May Marlene | 2011 | 1000000
+October Baby | 2011 | 1000000
+Orgazmo | 1997 | 1000000
+Rocky | 1976 | 1000000
+Safe Men | 1998 | 1000000
+Taxi Driver | 1976 | 1000000
+The Devil Inside | 2012 | 1000000
+The Future | 2011 | 1000000
+Transamerica | 2005 | 1000000
+Walking and Talking | 1996 | 1000000
+Wristcutters: A Love Story | 2006 | 1000000
+Waiting... | 2005 | 1125000
+"Sex Lies and Videotape" | 1989 | 1200000
+Blue Like Jazz | 2012 | 1200000
+But I&#39;m a Cheerleader | 1999 | 1200000
+Monsoon Wedding | 2001 | 1200000
+Reservoir Dogs | 1992 | 1200000
+Saw | 2004 | 1200000
+The Rocky Horror Picture Show | 1975 | 1200000
+Friday the 13th Part 2 | 1981 | 1250000
+Festen (The Celebration) | 1998 | 1300000
+The Girlfriend Experience | 2009 | 1300000
+"Lock Stock and Two Smoking Barrels" | 1998 | 1350000
+Bloodsport | 1988 | 1500000
+Buffalo &#39;66 | 1998 | 1500000
+Cabin Fever | 2002 | 1500000
+Insidious | 2010 | 1500000
+Kissing Jessica Stein | 2001 | 1500000
+Pontypool | 2008 | 1500000
+Repo Man | 1984 | 1500000
+The Ballad of Jack and Rose | 2005 | 1500000
+The Squid and the Whale | 2005 | 1500000
+The To Do List | 2013 | 1500000
+Waitress | 2007 | 1500000
+The Conversation | 1974 | 1600000
+My Summer of Love | 2004 | 1700000
+I Spit on Your Grave | 1978 | 1750000
+May | 2002 | 1750000
+Run Lola Run | 1998 | 1750000
+Beasts of the Southern Wild | 2012 | 1800000
+Higher Ground | 2011 | 1800000
+Songcatcher | 2000 | 1800000
+The Last Exorcism | 2010 | 1800000
+Nowhere Boy | 2009 | 1900000
+Submarine | 2010 | 1900000
+Before Sunset | 2004 | 2000000
+Boys Don&#39;t Cry | 1999 | 2000000
+Clockwatchers | 1997 | 2000000
+Das Leben Der Anderen | 2006 | 2000000
+Get Real | 1998 | 2000000
+Hamlet | 1996 | 2000000
+Les triplettes de Belleville | 2003 | 2000000
+Machete Kills | 2013 | 2000000
+Me and You and Everyone We Know | 2005 | 2000000
+Meek&#39;s Cutoff | 2010 | 2000000
+Sherrybaby | 2006 | 2000000
+Shortbus | 2006 | 2000000
+Sleeper | 1973 | 2000000
+Smoke Signals | 1998 | 2000000
+Strangers with Candy | 2005 | 2000000
+Teeth | 2007 | 2000000
+Thirteen | 2003 | 2000000
+Waltz with Bashir | 2008 | 2000000
+Winter&#39;s Bone | 2010 | 2000000
+[Rec] | 2007 | 2100000
+The French Connection | 1971 | 2200000
+Friday the 13th Part III | 1982 | 2250000
+Before Sunrise | 1995 | 2500000
+Escape from the Planet of the Apes | 1971 | 2500000
+Garden State | 2004 | 2500000
+Halloween II | 1981 | 2500000
+Super | 2010 | 2500000
+That Thing You Do! | 1996 | 2500000
+Blazing Saddles | 1974 | 2600000
+Friday the 13th Part IV: The Final Chapter | 1984 | 2600000
+Diary of the Dead | 2007 | 2750000
+Hustle &amp; Flow | 2005 | 2800000
+Young Frankenstein | 1974 | 2800000
+Boynton Beach Club | 2005 | 2900000
+Cinderella | 1997 | 2900000
+Air Bud | 1997 | 3000000
+Animal House | 1978 | 3000000
+Days of Heaven | 1978 | 3000000
+Family Plot | 1976 | 3000000
+Fish Tank | 2009 | 3000000
+Freeway | 1996 | 3000000
+Happiness | 1998 | 3000000
+Hobo with a Shotgun | 2011 | 3000000
+Jawbreaker | 1999 | 3000000
+Paranormal Activity 2 | 2010 | 3000000
+Please Give | 2010 | 3000000
+Real Women Have Curves | 2002 | 3000000
+Sinister | 2012 | 3000000
+Super Troopers | 2001 | 3000000
+The Divide | 2011 | 3000000
+The Purge | 2013 | 3000000
+Water | 2005 | 3000000
+Willy Wonka &amp; the Chocolate Factory | 1971 | 3000000
+Trainspotting | 1996 | 3100000
+Adam | 2009 | 3200000
+Beginners | 2010 | 3200000
+Maria Full of Grace | 2004 | 3200000
+The Dead Girl | 2006 | 3300000
+August | 1996 | 3400000
+High Anxiety | 1977 | 3400000
+Margin Call | 2011 | 3400000
+Jagten | 2012 | 3450000
+Airplane! | 1980 | 3500000
+D.E.B.S. | 2004 | 3500000
+Evil Dead II | 1987 | 3500000
+The History Boys | 2006 | 3700000
+Network | 1976 | 3800000
+1776 | 1972 | 4000000
+A Lonely Place to Die | 2011 | 4000000
+Annie Hall | 1977 | 4000000
+Bug | 2006 | 4000000
+Four rooms | 1995 | 4000000
+Lost In Translation | 2003 | 4000000
+MirrorMask | 2005 | 4000000
+Porky&#39;s | 1982 | 4000000
+Red State | 2011 | 4000000
+Saving Grace | 2000 | 4000000
+The Crying Game | 1992 | 4000000
+The Kids Are All Right | 2010 | 4000000
+The Last Exorcism Part II | 2013 | 4000000
+The Rules of Attraction | 2002 | 4000000
+The Visitor | 2007 | 4000000
+They Live | 1988 | 4000000
+Animal Kingdom | 2010 | 4200000
+Paa | 2009 | 4300000
+Sexy Beast | 2000 | 4300000
+Whale Rider | 2002 | 4300000
+One Flew Over the Cuckoo&#39;s Nest | 1975 | 4400000
+Silent Movie | 1976 | 4400000
+25th Hour | 2002 | 4500000
+Blackthorn | 2011 | 4500000
+Bound | 1996 | 4500000
+Chinjeolhan geumjassi | 2005 | 4500000
+Donnie Darko | 2001 | 4500000
+Fast Times at Ridgemont High | 1982 | 4500000
+L&aring;t den r&auml;tte komma in (Let the Right One In) | 2008 | 4500000
+Life During Wartime | 2009 | 4500000
+Police Academy | 1984 | 4500000
+Requiem for a Dream | 2000 | 4500000
+Secrets &amp; Lies | 1996 | 4500000
+Spun | 2002 | 4500000
+Take Shelter | 2011 | 4750000
+Tristram Shandy: A Cock and Bull Story | 2005 | 4750000
+Hostel | 2005 | 4800000
+Apollo 18 | 2011 | 5000000
+Billy Elliot | 2000 | 5000000
+Clerks II | 2006 | 5000000
+Crocodile Dundee | 1986 | 5000000
+Diner | 1982 | 5000000
+Eve&#39;s Bayou | 1997 | 5000000
+Everything Must Go | 2010 | 5000000
+Insidious: Chapter 2 | 2013 | 5000000
+Memento | 2000 | 5000000
+Monster | 2003 | 5000000
+Moon | 2009 | 5000000
+My Big Fat Greek Wedding | 2002 | 5000000
+Our Idiot Brother | 2011 | 5000000
+Paranormal Activity 3 | 2011 | 5000000
+Paranormal Activity 4 | 2012 | 5000000
+Rabbit Hole | 2010 | 5000000
+Saved! | 2004 | 5000000
+Saw II | 2005 | 5000000
+Shaun of the Dead | 2004 | 5000000
+Slums of Beverly Hills | 1998 | 5000000
+Spring Breakers | 2012 | 5000000
+Sunshine Cleaning | 2008 | 5000000
+The Way Way Back | 2013 | 5000000
+Tucker and Dale vs Evil | 2010 | 5000000
+UHF | 1989 | 5000000
+Somewhere in Time | 1980 | 5100000
+Rang De Basanti | 2006 | 5300000
+Don Jon | 2013 | 5500000
+Ghost World | 2001 | 5500000
+Iris | 2011 | 5500000
+Le Havre | 2011 | 5500000
+The Sting | 1973 | 5500000
+Bend It Like Beckham | 2002 | 5600000
+Emma | 1996 | 5900000
+Videodrome | 1983 | 5952000
+Best in Show | 2000 | 6000000
+Escape from New York | 1981 | 6000000
+Grease | 1978 | 6000000
+Hedwig and the Angry Inch | 2001 | 6000000
+Julia | 1977 | 6000000
+Little Voice | 1998 | 6000000
+Mystic Pizza | 1988 | 6000000
+Platoon | 1986 | 6000000
+Shattered Glass | 2003 | 6000000
+Sliding Doors | 1998 | 6000000
+Snow Flower and the Secret Fan | 2011 | 6000000
+The Guard | 2011 | 6000000
+The Usual Suspects | 1995 | 6000000
+The Words | 2012 | 6000000
+The Wrestler | 2008 | 6000000
+Mallrats | 1995 | 6100000
+Goodbye Lenin! | 2003 | 6400000
+The Terminator | 1984 | 6400000
+A Home at the End of The World | 2004 | 6500000
+Friends with Money | 2006 | 6500000
+Go! | 1999 | 6500000
+Layer Cake | 2004 | 6500000
+Nowhere in Africa | 2001 | 6500000
+Shame | 2011 | 6500000
+The Messenger | 2009 | 6500000
+Tropa de Elite | 2007 | 6537890
+Perrier&#39;s Bounty | 2009 | 6600000
+Dazed and Confused | 1993 | 6900000
+"Definitely Maybe" | 2008 | 7000000
+"Good Night and Good Luck." | 2005 | 7000000
+A Serious Man | 2009 | 7000000
+A Single Man | 2009 | 7000000
+Action Jackson | 1988 | 7000000
+Buffy the Vampire Slayer | 1992 | 7000000
+Capote | 2005 | 7000000
+Cyrus | 2010 | 7000000
+Dark Angel (I Come in Peace) | 1990 | 7000000
+Darkness Falls | 2003 | 7000000
+Fargo | 1996 | 7000000
+Flashdance | 1983 | 7000000
+Gerry | 2002 | 7000000
+Get Low | 2009 | 7000000
+Hesher | 2011 | 7000000
+Jumping the Broom | 2011 | 7000000
+Juno | 2007 | 7000000
+Logan&#39;s Run | 1976 | 7000000
+Mother and Child | 2009 | 7000000
+Nikita | 1990 | 7000000
+Rabbit-Proof Fence | 2002 | 7000000
+Somewhere | 2010 | 7000000
+Stargate: The Ark of Truth | 2008 | 7000000
+The Boondock Saints | 1999 | 7000000
+The Descent | 2005 | 7000000
+The Devil&#39;s Rejects | 2005 | 7000000
+The Godfather | 1972 | 7000000
+The Last Temptation of Christ | 1988 | 7000000
+Harry Brown | 2009 | 7300000
+Persepolis | 2007 | 7300000
+Crash | 2004 | 7303082
+(500) Days of Summer | 2009 | 7500000
+An Education | 2009 | 7500000
+Hostel: Part II | 2007 | 7500000
+Shopgirl | 2005 | 7500000
+Thank You for Smoking | 2005 | 7500000
+Swimming Pool | 2003 | 7800000
+"Bon Cop Bad Cop" | 2006 | 8000000
+28 Days Later... | 2002 | 8000000
+50/50 | 2011 | 8000000
+8 femmes | 2002 | 8000000
+Akeelah and the Bee | 2006 | 8000000
+Akira | 1988 | 8000000
+American Psycho | 2000 | 8000000
+Another Year | 2010 | 8000000
+Brooklyn Rules | 2007 | 8000000
+Dear Wendy | 2005 | 8000000
+Easy A | 2010 | 8000000
+Fido | 2006 | 8000000
+It&#39;s Kind of a Funny Story | 2010 | 8000000
+Little Miss Sunshine | 2006 | 8000000
+Made In Dagenham | 2010 | 8000000
+Much Ado About Nothing | 2012 | 8000000
+Pulp Fiction | 1994 | 8000000
+Restless | 2011 | 8000000
+Splash | 1984 | 8000000
+Stand By Me | 1986 | 8000000
+The Boondock Saints II: All Saints Day | 2009 | 8000000
+The Good Girl | 2002 | 8000000
+The Player | 1992 | 8000000
+The Secret of Kells | 2009 | 8000000
+Wild Target | 2010 | 8000000
+The City of Your Final Destination | 2009 | 8300000
+The Wind That Shakes the Barley | 2006 | 8300000
+Bright Star | 2009 | 8500000
+Election | 1999 | 8500000
+The Lost Boys | 1987 | 8500000
+The Vow | 2012 | 8738320
+Alien | 1979 | 9000000
+All or Nothing | 2002 | 9000000
+Black Christmas | 1974 | 9000000
+Black Christmas | 2006 | 9000000
+Boiler Room | 2000 | 9000000
+Child&#39;s Play | 1988 | 9000000
+Hamlet 2 | 2008 | 9000000
+Harold and Kumar Go to White Castle | 2004 | 9000000
+Henry V | 1989 | 9000000
+Igby Goes Down | 2002 | 9000000
+Set It Off | 1996 | 9000000
+The Legend of Suriyothai | 2001 | 9000000
+The Savages | 2007 | 9000000
+The Strangers | 2008 | 9000000
+The Way of the Gun | 2000 | 9000000
+Velvet Goldmine | 1998 | 9000000
+Veronika Decides to Die | 2009 | 9000000
+Heavy Metal | 1981 | 9300000
+Melancholia | 2011 | 9400000
+Volver | 2006 | 9400000
+Poltergeist III | 1988 | 9500000
+The Runaways | 2010 | 9500000
+Amour | 2012 | 9700000
+Adventureland | 2009 | 9800000
+Gunless | 2010 | 9900000
+American History X | 1998 | 10000000
+Bill &amp; Ted&#39;s Excellent Adventure | 1989 | 10000000
+Black and White | 1999 | 10000000
+Body Double | 1984 | 10000000
+Bring It On | 2000 | 10000000
+Cecil B. Demented | 2000 | 10000000
+Commando | 1985 | 10000000
+Coriolanus | 2011 | 10000000
+Detention | 2011 | 10000000
+Devil | 2010 | 10000000
+Dogma | 1999 | 10000000
+Drop Dead Gorgeous | 1999 | 10000000
+Eulogy | 2004 | 10000000
+Good Will Hunting | 1997 | 10000000
+High Heels and Low Lifes | 2001 | 10000000
+I Am Love | 2010 | 10000000
+Jeepers Creepers | 2001 | 10000000
+Nick and Norah&#39;s Infinite Playlist | 2008 | 10000000
+Office Space | 1999 | 10000000
+Police Academy: Mission to Moscow | 1994 | 10000000
+Precious: Based on the Novel Push by Sapphire | 2009 | 10000000
+Road House | 1989 | 10000000
+Rushmore | 1998 | 10000000
+Shaolin Soccer | 2001 | 10000000
+Skyline | 2010 | 10000000
+Snatch. | 2000 | 10000000
+Sparkle | 1976 | 10000000
+Sparkle | 2012 | 10000000
+The Banger Sisters | 2002 | 10000000
+The Best Exotic Marigold Hotel | 2011 | 10000000
+The Fourth Kind | 2009 | 10000000
+The Gift | 2000 | 10000000
+The Good Guy | 2009 | 10000000
+The Grudge | 2004 | 10000000
+The Mighty Ducks | 1992 | 10000000
+Tremors | 1990 | 10000000
+Valentine | 2001 | 10000000
+Welcome to the Rileys | 2010 | 10000000
+White Noise | 2005 | 10000000
+White Noise 2: The Light | 2007 | 10000000
+Wrong Turn | 2003 | 10000000
+E.T.: The Extra-Terrestrial | 1982 | 10500000
+Poltergeist | 1982 | 10700000
+Army of Darkness | 1992 | 11000000
+Barry Lyndon | 1975 | 11000000
+Cruel Intentions | 1999 | 11000000
+Gremlins | 1984 | 11000000
+High School Musical 3: Senior Year | 2008 | 11000000
+History of the World: Part I | 1981 | 11000000
+Jackass Number Two | 2006 | 11000000
+Kinsey | 2004 | 11000000
+Major League | 1989 | 11000000
+My Cousin Vinny | 1992 | 11000000
+Phone Booth | 2002 | 11000000
+Star Wars | 1977 | 11000000
+The Fighter | 2010 | 11000000
+The Secret Life of Bees | 2008 | 11000000
+Vera Drake | 2004 | 11000000
+St. Trinian&#39;s | 2007 | 11400000
+2046 | 2004 | 12000000
+About Time | 2013 | 12000000
+Ace Ventura: Pet Detective | 1994 | 12000000
+Act of Valor | 2012 | 12000000
+American Pie | 1999 | 12000000
+Aquamarine | 2006 | 12000000
+Charlie Bartlett | 2007 | 12000000
+Chronicle | 2012 | 12000000
+Crank | 2006 | 12000000
+Crossroads | 2002 | 12000000
+Das Boot | 1981 | 12000000
+Faster | 2010 | 12000000
+For Your Consideration | 2006 | 12000000
+Frida | 2002 | 12000000
+Girl with a Pearl Earring | 2003 | 12000000
+In the Cut | 2003 | 12000000
+Jackie Brown | 1997 | 12000000
+Jaws | 1975 | 12000000
+Nebraska | 2013 | 12000000
+Ondine | 2009 | 12000000
+Quarantine | 2008 | 12000000
+Rachel Getting Married | 2008 | 12000000
+Ravenous | 1999 | 12000000
+Rounders | 1998 | 12000000
+Running with Scissors | 2006 | 12000000
+Star Trek: The Wrath of Khan | 1982 | 12000000
+The Dangerous Lives of Altar Boys | 2002 | 12000000
+The Exorcist | 1973 | 12000000
+The Eye | 2008 | 12000000
+The Muppet Christmas Carol | 1992 | 12000000
+Think Like a Man | 2012 | 12000000
+Time Bandits | 1981 | 12000000
+WarGames | 1983 | 12000000
+Young Adult | 2011 | 12000000
+The Land Before Time | 1988 | 12300000
+Antwone Fisher | 2002 | 12500000
+Casino Jack | 2010 | 12500000
+Cat People | 1982 | 12500000
+Conviction | 2010 | 12500000
+Dancer in the Dark | 2000 | 12500000
+Glengarry Glen Ross | 1992 | 12500000
+Lars and the real Girl | 2007 | 12500000
+Machete | 2010 | 12500000
+"Good Morning Vietnam" | 1987 | 13000000
+10 Things I Hate About You | 1999 | 13000000
+21 &amp; Over | 2013 | 13000000
+54 | 1998 | 13000000
+Admission | 2013 | 13000000
+Attack the Block | 2011 | 13000000
+Being John Malkovich | 1999 | 13000000
+Black Swan | 2010 | 13000000
+Child&#39;s Play 2 | 1990 | 13000000
+Chloe | 2009 | 13000000
+Dick | 1999 | 13000000
+Harriet the Spy | 1996 | 13000000
+I Love You Phillip Morris | 2009 | 13000000
+Letters from Iwo Jima | 2006 | 13000000
+Paris je t&#39;aime | 2006 | 13000000
+Save the Last Dance | 2001 | 13000000
+The Butterfly Effect | 2004 | 13000000
+The Call | 2013 | 13000000
+The Godfather: Part II | 1974 | 13000000
+The Killer Inside Me | 2010 | 13000000
+The Mist | 2007 | 13000000
+Womb | 2010 | 13000000
+Young Guns | 1988 | 13000000
+Far from Heaven | 2002 | 13500000
+Seven Psychopaths | 2012 | 13500000
+Clueless | 1995 | 13700000
+Brokeback Mountain | 2005 | 13900000
+"Dude Where&#39;s My Car" | 2000 | 14000000
+A Perfect Getaway | 2009 | 14000000
+Cool Runnings | 1993 | 14000000
+Crooklyn | 1994 | 14000000
+Dangerous Liaisons | 1988 | 14000000
+Easy Virtue | 2008 | 14000000
+Fatal Attraction | 1987 | 14000000
+First Blood | 1982 | 14000000
+Jason X | 2001 | 14000000
+Little Children | 2006 | 14000000
+Margaret | 2011 | 14000000
+My Bloody Valentine 3D | 2009 | 14000000
+Pretty Woman | 1990 | 14000000
+Slumdog Millionaire | 2008 | 14000000
+The Iron Lady | 2011 | 14000000
+The Lucky Ones | 2008 | 14000000
+Urban Legend | 1998 | 14000000
+White Fang | 1991 | 14000000
+Romeo + Juliet | 1996 | 14500000
+Groundhog Day | 1993 | 14600000
+"Wo hu cang long (Crouching Tiger Hidden Dragon)" | 2000 | 15000000
+28 Weeks Later | 2007 | 15000000
+All About Steve | 2009 | 15000000
+American Beauty | 1999 | 15000000
+Banlieue 13 | 2004 | 15000000
+Beetle Juice | 1988 | 15000000
+Beverly Hills Cop | 1984 | 15000000
+Boogie Nights | 1997 | 15000000
+Brazil | 1985 | 15000000
+Centurion | 2010 | 15000000
+Country Strong | 2010 | 15000000
+Diary of a Wimpy Kid | 2010 | 15000000
+Disturbing Behavior | 1998 | 15000000
+Drive | 2011 | 15000000
+Grosse Pointe Blank | 1997 | 15000000
+Halloween | 1978 | 15000000
+Halloween | 2007 | 15000000
+Home Alone | 1990 | 15000000
+Idlewild | 2006 | 15000000
+In Bruges | 2008 | 15000000
+Killing Them Softly | 2012 | 15000000
+Kiss Kiss Bang Bang | 2005 | 15000000
+Lethal Weapon | 1987 | 15000000
+Little Women | 1994 | 15000000
+Love &amp; Basketball | 2000 | 15000000
+Mama | 2013 | 15000000
+Match Point | 2005 | 15000000
+Mulholland Dr. | 2001 | 15000000
+Never Let Me Go | 2010 | 15000000
+Peeples | 2013 | 15000000
+Private Benjamin | 1980 | 15000000
+Ramona and Beezus | 2010 | 15000000
+Scream | 1996 | 15000000
+The Big Lebowski | 1998 | 15000000
+The Clan of the Cave Bear | 1986 | 15000000
+The Color Purple | 1985 | 15000000
+The Craft | 1996 | 15000000
+The Deer Hunter | 1978 | 15000000
+The Faculty | 1998 | 15000000
+The Hurt Locker | 2008 | 15000000
+The Importance of Being Earnest | 2002 | 15000000
+The King&#39;s Speech | 2010 | 15000000
+The Man with the Iron Fists | 2012 | 15000000
+The Place Beyond the Pines | 2012 | 15000000
+The Princess Bride | 1987 | 15000000
+The Queen | 2006 | 15000000
+The Remains of the Day | 1993 | 15000000
+The Wedding Date | 2005 | 15000000
+The Woman in Black | 2012 | 15000000
+Tootsie | 1982 | 15000000
+Top Gun | 1986 | 15000000
+Transsiberian | 2008 | 15000000
+Tuck Everlasting | 2002 | 15000000
+Twins | 1988 | 15000000
+Whatever Works | 2009 | 15000000
+When a Stranger Calls | 2006 | 15000000
+Where the Heart Is | 2000 | 15000000
+Whip It | 2009 | 15000000
+You Will Meet a Tall Dark Stranger | 2010 | 15000000
+Slither | 2006 | 15250000
+High Plains Drifter | 1973 | 15700000
+Dumb &amp; Dumber | 1994 | 16000000
+El laberinto del fauno (Pan's Labyrinth) | 2006 | 16000000
+Enter the Void | 2009 | 16000000
+Highlander | 1986 | 16000000
+Hot Fuzz | 2007 | 16000000
+Jennifer&#39;s Body | 2009 | 16000000
+Moonrise Kingdom | 2012 | 16000000
+My Stepmother Is an Alien | 1988 | 16000000
+People Like Us | 2012 | 16000000
+Radio Days | 1987 | 16000000
+Remember Me | 2010 | 16000000
+The Artist | 2011 | 16000000
+The Messengers | 2007 | 16000000
+The Roommate | 2011 | 16000000
+The Unborn | 2009 | 16000000
+The Women | 2008 | 16000000
+Trance | 2013 | 16000000
+Vicky Cristina Barcelona | 2008 | 16000000
+White Oleander | 2002 | 16000000
+Dead Poets Society | 1989 | 16400000
+Becoming Jane | 2007 | 16500000
+House of Sand and Fog | 2003 | 16500000
+Sense and Sensibility | 1995 | 16500000
+Sydney White | 2007 | 16500000
+The Illusionist | 2006 | 16500000
+The Illusionist | 2010 | 16500000
+Aliens | 1986 | 17000000
+Beastly | 2011 | 17000000
+Brooklyn&#39;s Finest | 2009 | 17000000
+Evil Dead | 2013 | 17000000
+Friday the 13th | 1980 | 17000000
+Friday the 13th | 2009 | 17000000
+Halloween H20: 20 Years Later | 1998 | 17000000
+I Know What You Did Last Summer | 1997 | 17000000
+Pitch Perfect | 2012 | 17000000
+Sideways | 2004 | 17000000
+Smokin&#39; Aces | 2006 | 17000000
+Southland Tales | 2006 | 17000000
+Superman IV: The Quest for Peace | 1987 | 17000000
+TRON | 1982 | 17000000
+The Others | 2001 | 17000000
+Hitman | 2007 | 17500000
+Hoodwinked! | 2005 | 17500000
+Superbad | 2007 | 17500000
+Red Sonja | 1985 | 17900000
+127 Hours | 2010 | 18000000
+Amadeus | 1984 | 18000000
+Austin Powers: International Man of Mystery | 1997 | 18000000
+Blue Jasmine | 2013 | 18000000
+Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan | 2006 | 18000000
+Center Stage | 2000 | 18000000
+Conan the Destroyer | 1984 | 18000000
+Day of the Dead | 1985 | 18000000
+Day of the Dead | 2008 | 18000000
+Diary of a Wimpy Kid: Rodrick Rules | 2011 | 18000000
+Ed Wood | 1994 | 18000000
+Fame | 1980 | 18000000
+Gosford Park | 2001 | 18000000
+I Come with the Rain | 2009 | 18000000
+Legally Blonde | 2001 | 18000000
+Mean Girls | 2004 | 18000000
+Peggy Sue Got Married | 1986 | 18000000
+Predator | 1987 | 18000000
+Prom Night | 2008 | 18000000
+Raging Bull | 1980 | 18000000
+RocknRolla | 2008 | 18000000
+Soul Surfer | 2011 | 18000000
+Spy Hard | 1996 | 18000000
+Star Trek III: The Search for Spock | 1984 | 18000000
+The Exorcism of Emily Rose | 2005 | 18000000
+The Fog | 1980 | 18000000
+The Fog | 2005 | 18000000
+The Last Station | 2009 | 18000000
+The Mask | 1994 | 18000000
+Troop Beverly Hills | 1989 | 18000000
+Youth in Revolt | 2009 | 18000000
+Adaptation | 2002 | 18500000
+Fear and Loathing in Las Vegas | 1998 | 18500000
+The Amityville Horror | 1979 | 18500000
+The Amityville Horror | 2005 | 18500000
+The Invention of Lying | 2009 | 18500000
+A Cinderella Story | 2004 | 19000000
+Back to the Future | 1985 | 19000000
+Bad Teacher | 2011 | 19000000
+Gone Baby Gone | 2007 | 19000000
+The Book Thief | 2013 | 19000000
+The Crazies | 2010 | 19000000
+The Shining | 1980 | 19000000
+The Switch | 2010 | 19000000
+Thir13en Ghosts | 2001 | 19000000
+Won&#39;t Back Down | 2012 | 19000000
+The Frozen Ground | 2013 | 19200000
+The Painted Veil | 2006 | 19400000
+"Synecdoche New York" | 2008 | 20000000
+12 Years a Slave | 2013 | 20000000
+21 grams | 2003 | 20000000
+A Dangerous Method | 2011 | 20000000
+A Scanner Darkly | 2006 | 20000000
+A Very Harold &amp; Kumar 3D Christmas | 2011 | 20000000
+Appaloosa | 2008 | 20000000
+Armored | 2009 | 20000000
+Be Kind Rewind | 2008 | 20000000
+Beauty and the Beast | 1991 | 20000000
+Beverly Hills Cop II | 1987 | 20000000
+Bill &amp; Ted&#39;s Bogus Journey | 1991 | 20000000
+Bon voyage | 2003 | 20000000
+Boogeyman | 2005 | 20000000
+Can&#39;t Stop the Music | 1980 | 20000000
+Capitalism: A Love Story | 2009 | 20000000
+Close Encounters of the Third Kind | 1977 | 20000000
+Conan the Barbarian | 1982 | 20000000
+Conan the Barbarian | 2011 | 20000000
+Connie and Carla | 2004 | 20000000
+Copycat | 1995 | 20000000
+Daybreakers | 2009 | 20000000
+Disturbia | 2007 | 20000000
+Doubt | 2008 | 20000000
+Drumline | 2002 | 20000000
+Dylan Dog: Dead of Night | 2010 | 20000000
+Edward Scissorhands | 1990 | 20000000
+Equilibrium | 2002 | 20000000
+Eternal Sunshine of the Spotless Mind | 2004 | 20000000
+Everybody&#39;s Fine | 2009 | 20000000
+Eye for an Eye | 1996 | 20000000
+Fired Up! | 2009 | 20000000
+From Dusk Till Dawn | 1996 | 20000000
+Ghost Town | 2008 | 20000000
+High Fidelity | 2000 | 20000000
+Holes | 2003 | 20000000
+Home Alone 2: Lost in New York | 1992 | 20000000
+Home for the holidays | 1995 | 20000000
+Into the Wild | 2007 | 20000000
+Kung Fu Hustle | 2004 | 20000000
+Ladyhawke | 1985 | 20000000
+Let Me In | 2010 | 20000000
+Man of the Year | 2006 | 20000000
+Milk | 2008 | 20000000
+Mononoke-hime | 1997 | 20000000
+Mortal Kombat | 1995 | 20000000
+Premonition | 2007 | 20000000
+Proof | 2005 | 20000000
+Raiders of the Lost Ark | 1981 | 20000000
+Selena | 1997 | 20000000
+Silent Hill: Revelation 3D | 2012 | 20000000
+Stick It | 2006 | 20000000
+Team America: World Police | 2004 | 20000000
+Texas Chainsaw 3D | 2013 | 20000000
+The Bank Job | 2008 | 20000000
+The Brothers Bloom | 2008 | 20000000
+The Conjuring | 2013 | 20000000
+The Debt | 2010 | 20000000
+The Grudge 2 | 2006 | 20000000
+The Jungle Book 2 | 2003 | 20000000
+The Kite Runner | 2007 | 20000000
+The Proposition | 1998 | 20000000
+The Quiet American | 2002 | 20000000
+The School of Rock | 2003 | 20000000
+The Silence of the Lambs | 1991 | 20000000
+The Tempest | 2010 | 20000000
+The World&#39;s End | 2013 | 20000000
+Three Kingdoms: Resurrection of the Dragon | 2008 | 20000000
+Three to Tango | 1999 | 20000000
+Topsy-Turvy | 1999 | 20000000
+Vampires (John Carpenter&#39;s) | 1998 | 20000000
+Wayne&#39;s World | 1992 | 20000000
+What&#39;s Your Number | 2011 | 20000000
+White Chicks | 2004 | 20000000
+Wild Things | 1998 | 20000000
+You Again | 2010 | 20000000
+The Best Little Whorehouse in Texas | 1982 | 20500000
+Away We Go | 2009 | 21000000
+Carrie 2: The Rage | 1999 | 21000000
+Death at a Funeral | 2007 | 21000000
+For Colored Girls | 2010 | 21000000
+Silver Linings Playbook | 2012 | 21000000
+South Park: Bigger Longer &amp; Uncut | 1999 | 21000000
+The Transporter | 2002 | 21000000
+Tinker Tailor Soldier Spy | 2011 | 21000000
+Michael Clayton | 2007 | 21500000
+To Rome With Love | 2012 | 21500000
+Ghost | 1990 | 22000000
+I Heart Huckabees | 2004 | 22000000
+Jay and Silent Bob Strike Back | 2001 | 22000000
+Josie and the Pussycats | 2001 | 22000000
+The Bridges of Madison County | 1995 | 22000000
+The Glass House | 2001 | 22000000
+The Informant! | 2009 | 22000000
+The Net | 1995 | 22000000
+The Santa Clause | 1994 | 22000000
+There&#39;s Something About Mary | 1998 | 22000000
+Underworld | 2003 | 22000000
+Zwartboek | 2006 | 22000000
+1408 | 2007 | 22500000
+Spaceballs | 1987 | 22700000
+Anywhere But Here | 1999 | 23000000
+Coco avant Chanel | 2009 | 23000000
+Final Destination | 2000 | 23000000
+Haywire | 2011 | 23000000
+Her | 2013 | 23000000
+Pitch Black | 2000 | 23000000
+Someone Like You... | 2001 | 23000000
+Star Wars: Episode V - The Empire Strikes Back | 1980 | 23000000
+The Naked Gun 2 1/2: The Smell of Fear | 1991 | 23000000
+Zombieland | 2009 | 23600000
+"Girl Interrupted" | 1999 | 24000000
+Footloose | 2011 | 24000000
+Muppets From Space | 1999 | 24000000
+Return to Me | 2000 | 24000000
+Scream 2 | 1997 | 24000000
+The Men Who Stare at Goats | 2009 | 24000000
+The Princess and the Cobbler | 1993 | 24000000
+The Whole Nine Yards | 2000 | 24000000
+"Legally Blonde 2: Red White &amp; Blonde" | 2003 | 25000000
+Anchorman: The Legend of Ron Burgundy | 2004 | 25000000
+August: Osage County | 2013 | 25000000
+Beauty Shop | 2005 | 25000000
+Blindness | 2008 | 25000000
+BloodRayne | 2005 | 25000000
+Bride of Chucky | 1998 | 25000000
+Bridge to Terabithia | 2007 | 25000000
+Bridget Jones&#39;s Diary | 2001 | 25000000
+Chocolat | 2000 | 25000000
+Cloverfield | 2008 | 25000000
+Contraband | 2012 | 25000000
+Cradle 2 the Grave | 2003 | 25000000
+Dear John | 2010 | 25000000
+Don&#39;t Be Afraid of the Dark | 2010 | 25000000
+Elizabeth | 1998 | 25000000
+Final Destination 3 | 2006 | 25000000
+Finding Neverland | 2004 | 25000000
+Fly Me to the Moon | 2008 | 25000000
+Gettysburg | 1993 | 25000000
+Goodfellas | 1990 | 25000000
+Gran Torino | 2008 | 25000000
+Hide and Seek | 2005 | 25000000
+Hot Rod | 2007 | 25000000
+Ice Princess | 2005 | 25000000
+Jeepers Creepers II | 2003 | 25000000
+Kingpin | 1996 | 25000000
+Kiss of the Dragon | 2001 | 25000000
+Legend | 1985 | 25000000
+Mrs. Doubtfire | 1993 | 25000000
+No Country for Old Men | 2007 | 25000000
+No Strings Attached | 2011 | 25000000
+Parental Guidance | 2012 | 25000000
+Possession | 2008 | 25000000
+Rain Man | 1988 | 25000000
+Romeo Must Die | 2000 | 25000000
+Schindler&#39;s List | 1993 | 25000000
+She&#39;s the Man | 2006 | 25000000
+Straw Dogs | 1971 | 25000000
+Straw Dogs | 2011 | 25000000
+Taken | 2008 | 25000000
+Tank Girl | 1995 | 25000000
+Teenage Mutant Ninja Turtles II: The Secret of the Ooze | 1991 | 25000000
+The Box | 2009 | 25000000
+The Conspirator | 2010 | 25000000
+The Counselor | 2013 | 25000000
+The Grey | 2012 | 25000000
+The Help | 2011 | 25000000
+The Hours | 2002 | 25000000
+The House Bunny | 2008 | 25000000
+The Last Emperor | 1987 | 25000000
+The Losers | 2010 | 25000000
+The Powerpuff Girls | 2002 | 25000000
+The Road | 2009 | 25000000
+The Shawshank Redemption | 1994 | 25000000
+There Will Be Blood | 2007 | 25000000
+Tombstone | 1993 | 25000000
+Warrior | 2011 | 25000000
+The Constant Gardener | 2005 | 25500000
+"O Brother Where Art Thou?" | 2000 | 26000000
+A Bridge Too Far | 1977 | 26000000
+Brothers | 2009 | 26000000
+Ever After | 1998 | 26000000
+Final Destination 2 | 2003 | 26000000
+Flatliners | 1990 | 26000000
+Freaky Friday | 2003 | 26000000
+In Good Company | 2004 | 26000000
+Legion | 2010 | 26000000
+New Year&#39;s Eve | 2011 | 26000000
+Pain &amp; Gain | 2013 | 26000000
+Pineapple Express | 2008 | 26000000
+Red Eye | 2005 | 26000000
+Shakespeare in Love | 1998 | 26000000
+The 40 Year Old Virgin | 2005 | 26000000
+The Fifth Estate | 2013 | 26000000
+Case 39 | 2009 | 27000000
+Dark City | 1998 | 27000000
+Flawless | 1999 | 27000000
+Kiss the Girls | 1997 | 27000000
+Limitless | 2011 | 27000000
+Lucky Number Slevin | 2006 | 27000000
+Return to Oz | 1985 | 27000000
+Star Trek VI: The Undiscovered Country | 1991 | 27000000
+The Blues Brothers | 1980 | 27000000
+The Sisterhood of the Traveling Pants 2 | 2008 | 27000000
+"Welcome Home Roscoe Jenkins" | 2008 | 27500000
+Knocked Up | 2007 | 27500000
+My Sister&#39;s Keeper | 2009 | 27500000
+Notes on a Scandal | 2006 | 27500000
+30 Minutes or Less | 2011 | 28000000
+A Simple Wish | 1997 | 28000000
+Aladdin | 1992 | 28000000
+Along Came A Spider | 2001 | 28000000
+Blade Runner | 1982 | 28000000
+Dawn of the Dead | 1978 | 28000000
+Dawn of the Dead | 2004 | 28000000
+Die Hard | 1988 | 28000000
+Hocus Pocus | 1993 | 28000000
+Identity | 2003 | 28000000
+Indiana Jones and the Temple of Doom | 1984 | 28000000
+Kick-Ass | 2010 | 28000000
+Kick-Ass 2 | 2013 | 28000000
+Last Vegas | 2013 | 28000000
+Miracle | 2004 | 28000000
+No Reservations | 2007 | 28000000
+Pride and Prejudice | 1995 | 28000000
+Pride and Prejudice | 2003 | 28000000
+Pride and Prejudice | 2005 | 28000000
+Safe Haven | 2013 | 28000000
+The Royal Tenenbaums | 2001 | 28000000
+The Spy Next Door | 2010 | 28000000
+The Wedding Planner | 2001 | 28000000
+Timecop | 1994 | 28000000
+We Own the Night | 2007 | 28000000
+Zoolander | 2001 | 28000000
+The Jacket | 2005 | 28500000
+Frost/Nixon | 2008 | 29000000
+Twelve Monkeys | 1995 | 29000000
+Walk the Line | 2005 | 29000000
+13 Going on 30 | 2004 | 30000000
+30 Days of Night | 2007 | 30000000
+88 Minutes | 2007 | 30000000
+9 | 2009 | 30000000
+About Schmidt | 2002 | 30000000
+Analyze This | 1999 | 30000000
+Antitrust | 2001 | 30000000
+Assault on Precinct 13 | 1976 | 30000000
+Assault on Precinct 13 | 2005 | 30000000
+Atonement | 2007 | 30000000
+Baby Mama | 2008 | 30000000
+Barney&#39;s Version | 2010 | 30000000
+Blow | 2001 | 30000000
+Blue Crush | 2002 | 30000000
+Bride Wars | 2009 | 30000000
+Carrie | 2002 | 30000000
+Carrie | 2013 | 30000000
+Chicago | 2002 | 30000000
+Corpse Bride | 2005 | 30000000
+DOA: Dead or Alive | 2006 | 30000000
+District 9 | 2009 | 30000000
+Dodgeball: A True Underdog Story | 2004 | 30000000
+Drag Me to Hell | 2009 | 30000000
+Forgetting Sarah Marshall | 2008 | 30000000
+Fright Night | 2011 | 30000000
+Ghostbusters | 1984 | 30000000
+Gloria | 2013 | 30000000
+Hanna | 2011 | 30000000
+Hope Floats | 1998 | 30000000
+Howard The Duck | 1986 | 30000000
+Igor | 2008 | 30000000
+Lee Daniels&#39; The Butler | 2013 | 30000000
+Legends of the Fall | 1994 | 30000000
+Letters to Juliet | 2010 | 30000000
+Little Shop of Horrors | 1986 | 30000000
+Love and Other Drugs | 2010 | 30000000
+Midnight Run | 1988 | 30000000
+Midnight in Paris | 2011 | 30000000
+Million Dollar Baby | 2004 | 30000000
+Miss Potter | 2006 | 30000000
+Mortal Kombat: Annihilation | 1997 | 30000000
+Mystic River | 2003 | 30000000
+Naked Gun 33 1/3: The Final Insult | 1994 | 30000000
+North Country | 2005 | 30000000
+Pocket Monsters: Mewtwo Strikes Back! | 1999 | 30000000
+Pokemon: The Movie 2000 | 2000 | 30000000
+Remember the Titans | 2000 | 30000000
+Rugrats in Paris: | 2000 | 30000000
+Runner Runner | 2013 | 30000000
+Se7en | 1995 | 30000000
+Secondhand Lions | 2003 | 30000000
+Side Effects | 2013 | 30000000
+Speed | 1994 | 30000000
+Splice | 2009 | 30000000
+Star Trek V: The Final Frontier | 1989 | 30000000
+Stranger Than Fiction | 2006 | 30000000
+Take the Lead | 2006 | 30000000
+The Addams Family | 1991 | 30000000
+The Cabin in the Woods | 2011 | 30000000
+The Family | 2013 | 30000000
+The First Wives Club | 1996 | 30000000
+The Hunt for Red October | 1990 | 30000000
+The Imaginarium of Doctor Parnassus | 2009 | 30000000
+The New World | 2005 | 30000000
+The Next Three Days | 2010 | 30000000
+The Notebook | 2004 | 30000000
+The Princess Diaries | 2001 | 30000000
+The Whole Ten Yards | 2004 | 30000000
+Toy Story | 1995 | 30000000
+Ultraviolet | 2006 | 30000000
+Up in the Air | 2009 | 30000000
+Warm Bodies | 2013 | 30000000
+Wing Commander | 1999 | 30000000
+Winnie the Pooh | 2011 | 30000000
+Flight | 2012 | 31000000
+Moonraker | 1979 | 31000000
+Apocalypse Now | 1979 | 31500000
+Cats Don&#39;t Dance | 1997 | 32000000
+Going the Distance | 2010 | 32000000
+Nacho Libre | 2006 | 32000000
+Repo Men | 2010 | 32000000
+Scrooged | 1988 | 32000000
+Snow Dogs | 2002 | 32000000
+Source Code | 2011 | 32000000
+Takers | 2010 | 32000000
+The Incredible Burt Wonderstone | 2013 | 32000000
+The Number 23 | 2007 | 32000000
+The Quick and the Dead | 1995 | 32000000
+This Is the End | 2013 | 32000000
+Bridesmaids | 2011 | 32500000
+Star Wars: Episode VI - Return of the Jedi | 1983 | 32500000
+The Big Wedding | 2013 | 32500000
+The Reader | 2008 | 32500000
+Wanderlust | 2012 | 32500000
+A Few Good Men | 1992 | 33000000
+Doomsday | 2008 | 33000000
+Safe | 1995 | 33000000
+Safe | 2012 | 33000000
+Snakes on a Plane | 2006 | 33000000
+Step Up Revolution | 2012 | 33000000
+Gake no ue no Ponyo | 2008 | 34000000
+The Age of Innocence | 1993 | 34000000
+The Darkest Hour | 2011 | 34800000
+21 | 2008 | 35000000
+A nightmare on Elm Street | 1984 | 35000000
+American Outlaws | 2001 | 35000000
+Austin Powers: The Spy Who Shagged Me | 1999 | 35000000
+Bandidas | 2006 | 35000000
+Batman | 1989 | 35000000
+Biutiful | 2010 | 35000000
+Closer | 2004 | 35000000
+Cursed | 2005 | 35000000
+Ella Enchanted | 2004 | 35000000
+Flash Gordon | 1980 | 35000000
+From Hell | 2001 | 35000000
+Horrible Bosses | 2011 | 35000000
+Identity Thief | 2013 | 35000000
+In Time | 2011 | 35000000
+L.A. Confidential | 1997 | 35000000
+Malcolm X | 1992 | 35000000
+Max Payne | 2008 | 35000000
+Must love Dogs | 1997 | 35000000
+Nanny McPhee and the Big Bang | 2010 | 35000000
+Parker | 2013 | 35000000
+Predator 2 | 1990 | 35000000
+Premium Rush | 2012 | 35000000
+Queen of the Damned | 2002 | 35000000
+Resident Evil | 2002 | 35000000
+Rush Hour | 1998 | 35000000
+Saving Mr. Banks | 2013 | 35000000
+Secretariat | 2010 | 35000000
+Smilla&#39;s Sense of Snow | 1997 | 35000000
+Species | 1995 | 35000000
+Spy Kids | 2001 | 35000000
+Star Trek: The Motion Picture | 1979 | 35000000
+Street Fighter | 1994 | 35000000
+TMNT | 2007 | 35000000
+The Back-up Plan | 2010 | 35000000
+The Blind Side | 2009 | 35000000
+The Cell | 2000 | 35000000
+The Devil Wears Prada | 2006 | 35000000
+The English Patient | 1996 | 35000000
+The Fountain | 2006 | 35000000
+The Hangover | 2009 | 35000000
+The Man in the Iron Mask | 1998 | 35000000
+The Tree of Life | 2011 | 35000000
+The Young Victoria | 2009 | 35000000
+True Grit | 2010 | 35000000
+What Happens In Vegas | 2008 | 35000000
+Whiteout | 2009 | 35000000
+Wimbledon | 2004 | 35000000
+Zoom | 2006 | 35000000
+Blue Streak | 1999 | 36000000
+Gattaca | 1997 | 36000000
+Hall Pass | 2011 | 36000000
+Hot Tub Time Machine | 2010 | 36000000
+Burn After Reading | 2008 | 37000000
+Cop Out | 2010 | 37000000
+Dolphin Tale | 2011 | 37000000
+Magnolia | 1999 | 37000000
+Nim&#39;s Island | 2008 | 37000000
+The Rite | 2011 | 37000000
+The Town | 2010 | 37000000
+Twilight | 2008 | 37000000
+We&#39;re the Millers | 2013 | 37000000
+The Master | 2012 | 37500000
+What to Expect When You&#39;re Expecting | 2012 | 37500000
+City of Ember | 2008 | 38000000
+Push | 2009 | 38000000
+Riddick | 2013 | 38000000
+Rush | 2013 | 38000000
+Spy Kids 2: Island of Lost Dreams | 2002 | 38000000
+The Fast and the Furious | 2001 | 38000000
+The Ugly Truth | 2009 | 38000000
+Frankenweenie | 2012 | 39000000
+Serenity | 2005 | 39000000
+Superman III | 1983 | 39000000
+The Time Traveler&#39;s Wife | 2009 | 39000000
+"I Love You Man" | 2009 | 40000000
+17 Again | 2009 | 40000000
+42 | 2013 | 40000000
+8MM | 1999 | 40000000
+A League of Their Own | 1992 | 40000000
+American Hustle | 2013 | 40000000
+Back to the Future Part II | 1989 | 40000000
+Back to the Future Part III | 1990 | 40000000
+Colombiana | 2011 | 40000000
+Escape from Planet Earth | 2013 | 40000000
+Fantastic Mr. Fox | 2009 | 40000000
+Fever Pitch | 1997 | 40000000
+Final Destination 5 | 2011 | 40000000
+Get Him To The Greek | 2010 | 40000000
+He&#39;s Just Not That Into You | 2009 | 40000000
+Impostor | 2001 | 40000000
+Julie &amp; Julia | 2009 | 40000000
+Made of Honor | 2008 | 40000000
+Marie Antoinette | 2006 | 40000000
+Morning Glory | 2010 | 40000000
+Music and Lyrics | 2007 | 40000000
+New York Minute | 2004 | 40000000
+Pandorum | 2009 | 40000000
+Paul | 2011 | 40000000
+Predators | 2010 | 40000000
+Quest for Camelot | 1998 | 40000000
+Ray | 2004 | 40000000
+Rent | 2005 | 40000000
+Scream 3 | 2000 | 40000000
+Secret Window | 2004 | 40000000
+Shallow Hal | 2001 | 40000000
+Showgirls | 1995 | 40000000
+Sin City | 2005 | 40000000
+Small Soldiers | 1998 | 40000000
+Spawn | 1997 | 40000000
+Spy Kids 3-D: Game Over | 2003 | 40000000
+Sunshine | 2007 | 40000000
+The Final Destination | 2009 | 40000000
+The Hudsucker Proxy | 1994 | 40000000
+The Impossible | 2012 | 40000000
+The Karate Kid | 1984 | 40000000
+The Karate Kid | 2010 | 40000000
+The Lake House | 2006 | 40000000
+The Lincoln Lawyer | 2011 | 40000000
+The Other Boleyn Girl | 2008 | 40000000
+The Prestige | 2006 | 40000000
+The Proposal | 2009 | 40000000
+The Shadow | 1994 | 40000000
+The Sixth Sense | 1999 | 40000000
+The Skeleton Key | 2005 | 40000000
+The Social Network | 2010 | 40000000
+The Talented Mr. Ripley | 1999 | 40000000
+8 Mile | 2002 | 41000000
+A Knight&#39;s Tale | 2001 | 41000000
+Br&uuml;no | 2009 | 42000000
+Chicken Run | 2000 | 42000000
+Hero | 1992 | 42000000
+High Crimes | 2002 | 42000000
+Licence to Kill | 1989 | 42000000
+Lord of War | 2005 | 42000000
+Micmacs (Micmacs &agrave; tire-larigot) | 2009 | 42000000
+Notting Hill | 1999 | 42000000
+One for the Money | 2012 | 42000000
+Red Riding Hood | 2011 | 42000000
+Super Mario Bros. | 1993 | 42000000
+The Mirror Has Two Faces | 1996 | 42000000
+The Mechanic | 2011 | 42500000
+28 Days | 2000 | 43000000
+Danny the dog | 2005 | 43000000
+The Heat | 2013 | 43000000
+The Sweetest Thing | 2002 | 43000000
+Charlie St. Cloud | 2010 | 44000000
+Heaven&#39;s Gate | 1980 | 44000000
+The Fugitive | 1993 | 44000000
+Argo | 2012 | 44500000
+"Yours Mine and Ours" | 2005 | 45000000
+A Bug&#39;s Life | 1998 | 45000000
+Across the Universe | 2007 | 45000000
+Blade | 1998 | 45000000
+Cellular | 2004 | 45000000
+Coach Carter | 2005 | 45000000
+Coyote Ugly | 2000 | 45000000
+Dredd 3D | 2012 | 45000000
+Dune | 1984 | 45000000
+Dune | 2000 | 45000000
+Galaxy Quest | 1999 | 45000000
+Johnny English Reborn | 2011 | 45000000
+Journey to the Center of the Earth | 2008 | 45000000
+Last Holiday | 2006 | 45000000
+Liar Liar | 1997 | 45000000
+Love Actually | 2003 | 45000000
+Miracle at St. Anna | 2008 | 45000000
+Miss Congeniality | 2000 | 45000000
+Resident Evil: Extinction | 2007 | 45000000
+Revolutionary Road | 2008 | 45000000
+Scary Movie 3 | 2003 | 45000000
+The Ant Bully | 2006 | 45000000
+The Bucket List | 2007 | 45000000
+The Client | 1994 | 45000000
+The Ghost Writer | 2010 | 45000000
+The Glimmer Man | 1996 | 45000000
+The Hitchhiker&#39;s Guide to the Galaxy | 2005 | 45000000
+The Muppets | 2011 | 45000000
+The Princess Diaries 2: Royal Engagement | 2004 | 45000000
+The Specialist | 1994 | 45000000
+Training Day | 2001 | 45000000
+Insomnia | 2002 | 46000000
+My Best Friend&#39;s Wedding | 1997 | 46000000
+Prisoners | 2013 | 46000000
+Star Trek: First Contact | 1996 | 46000000
+Solaris | 2002 | 47000000
+The Cable Guy | 1996 | 47000000
+3:10 to Yuma | 2007 | 48000000
+Indiana Jones and the Last Crusade | 1989 | 48000000
+Kate &amp; Leopold | 2001 | 48000000
+Out of Sight | 1998 | 48000000
+Panic Room | 2002 | 48000000
+The Ring | 2002 | 48000000
+Anna Karenina | 2012 | 49000000
+Invictus | 2009 | 49000000
+The One | 2001 | 49000000
+As Good as It Gets | 1997 | 50000000
+Assassins | 1995 | 50000000
+Beautiful Creatures | 2000 | 50000000
+Beautiful Creatures | 2013 | 50000000
+Beverly Hills Cop III | 1994 | 50000000
+Bridget Jones: The Edge of Reason | 2004 | 50000000
+Congo | 1995 | 50000000
+Death to Smoochy | 2002 | 50000000
+Defiance | 2008 | 50000000
+Domino | 2005 | 50000000
+Don&#39;t Say A Word | 2001 | 50000000
+Dream House | 2011 | 50000000
+Eastern Promises | 2007 | 50000000
+Erin Brockovich | 2000 | 50000000
+Escape from L.A. | 1996 | 50000000
+Fair Game | 2010 | 50000000
+For Love of the Game | 1999 | 50000000
+G.I. Jane | 1997 | 50000000
+Gamer | 2009 | 50000000
+Hannibal Rising | 2007 | 50000000
+Hansel &amp; Gretel: Witch Hunters | 2013 | 50000000
+Herbie Fully Loaded | 2005 | 50000000
+How to Lose a Guy in 10 Days | 2003 | 50000000
+I Am Number Four | 2011 | 50000000
+Inside Man | 2006 | 50000000
+Knowing | 2009 | 50000000
+Man of the House | 2005 | 50000000
+Moneyball | 2011 | 50000000
+Mr Deeds | 2002 | 50000000
+Ninja Assassin | 2009 | 50000000
+Outbreak | 1995 | 50000000
+Payback | 1999 | 50000000
+Raising Helen | 2004 | 50000000
+Resident Evil: Apocalypse | 2004 | 50000000
+Robin Hood: Prince of Thieves | 1991 | 50000000
+Shanghai Knights | 2003 | 50000000
+Shrek | 2001 | 50000000
+Silent Hill | 2006 | 50000000
+Stepmom | 1998 | 50000000
+Striptease | 1996 | 50000000
+Super 8 | 2011 | 50000000
+Ted | 2012 | 50000000
+The Adventures of Sharkboy and Lavagirl 3-D | 2005 | 50000000
+The Beach | 2000 | 50000000
+The Boat That Rocked | 2009 | 50000000
+The Game | 1997 | 50000000
+The Host | 2006 | 50000000
+The Host | 2013 | 50000000
+The Iron Giant | 1999 | 50000000
+The Life Aquatic with Steve Zissou | 2004 | 50000000
+The Negotiator | 1998 | 50000000
+The Peacemaker | 1997 | 50000000
+The Ring Two | 2005 | 50000000
+V for Vendetta | 2005 | 50000000
+We Bought a Zoo | 2011 | 50000000
+Yes Man | 2008 | 50000000
+The Adjustment Bureau | 2011 | 50200000
+Casino | 1995 | 52000000
+Catch Me If You Can | 2002 | 52000000
+The Break Up | 2006 | 52000000
+The Thin Red Line | 1998 | 52000000
+Valentine&#39;s Day | 2010 | 52000000
+Zero Dark Thirty | 2012 | 52500000
+Anastasia | 1997 | 53000000
+Beloved | 1998 | 53000000
+Law Abiding Citizen | 2009 | 53000000
+Moulin Rouge! | 2001 | 53000000
+Shaft | 1971 | 53012938
+"You Me and Dupree" | 2006 | 54000000
+Blade II | 2002 | 54000000
+Seven Pounds | 2008 | 54000000
+Superman II | 1980 | 54000000
+A Very Long Engagement | 2004 | 55000000
+AEon Flux | 2005 | 55000000
+Alien 3 | 1992 | 55000000
+Bullet to the Head | 2012 | 55000000
+Burlesque | 2010 | 55000000
+Captain Phillips | 2013 | 55000000
+Casper | 1995 | 55000000
+Chain Reaction | 1996 | 55000000
+Changeling | 2008 | 55000000
+Date Night | 2010 | 55000000
+Death Becomes Her | 1992 | 55000000
+Flightplan | 2005 | 55000000
+Forrest Gump | 1994 | 55000000
+George of the Jungle | 1997 | 55000000
+Hitch | 2005 | 55000000
+Kill Bill: Vol. 1 | 2003 | 55000000
+Maid in Manhattan | 2002 | 55000000
+Meet the Parents | 2000 | 55000000
+Mr. Popper&#39;s Penguins | 2011 | 55000000
+Pocahontas | 1995 | 55000000
+Shanghai Noon | 2000 | 55000000
+Stargate | 1994 | 55000000
+Superman | 1978 | 55000000
+The Fan | 1996 | 55000000
+The Forbidden Kingdom | 2008 | 55000000
+The Phantom of the Opera | 2004 | 55000000
+The Pirates! Band of Misfits | 2012 | 55000000
+The Pursuit of Happyness | 2006 | 55000000
+The Watch | 2012 | 55000000
+DragonHeart | 1996 | 57000000
+The Devil&#39;s Advocate | 1997 | 57000000
+Sex and the City | 2008 | 57500000
+Che: Part One | 2008 | 58000000
+Just Like Heaven | 2005 | 58000000
+Red Tails | 2012 | 58000000
+Sabrina | 1995 | 58000000
+The Internship | 2013 | 58000000
+"Eat Pray Love" | 2010 | 60000000
+300 | 2006 | 60000000
+Alien: Resurrection | 1997 | 60000000
+Almost Famous | 2000 | 60000000
+Collateral | 2004 | 60000000
+Contagion | 2011 | 60000000
+Coraline | 2009 | 60000000
+Daddy Day Care | 2003 | 60000000
+Dark Water | 2005 | 60000000
+Edge of Darkness | 2010 | 60000000
+Event Horizon | 1997 | 60000000
+Gangster Squad | 2013 | 60000000
+Hellboy | 2004 | 60000000
+Inkheart | 2008 | 60000000
+Jack Reacher | 2012 | 60000000
+Jingle All the Way | 1996 | 60000000
+Meet Dave | 2008 | 60000000
+Mercury Rising | 1998 | 60000000
+Miss Congeniality 2: Armed &amp; Fabulous | 2005 | 60000000
+ParaNorman | 2012 | 60000000
+Planet 51 | 2009 | 60000000
+Practical Magic | 1998 | 60000000
+Priest | 1994 | 60000000
+Priest | 2011 | 60000000
+Red | 2010 | 60000000
+Reign of Fire | 2002 | 60000000
+Shooter | 2007 | 60000000
+Sinbad: Legend of the Seven Seas | 2003 | 60000000
+Sky High | 2005 | 60000000
+Star Trek: Nemesis | 2002 | 60000000
+State of Play | 2009 | 60000000
+The Avengers | 1998 | 60000000
+The Avengers | 2012 | 60000000
+The Bourne Identity | 2002 | 60000000
+The Green Mile | 1999 | 60000000
+The Italian Job | 2003 | 60000000
+The Mortal Instruments: City of Bones | 2013 | 60000000
+The Prince of Egypt | 1998 | 60000000
+The Soloist | 2009 | 60000000
+The Tale of Despereaux | 2008 | 60000000
+The Truman Show | 1998 | 60000000
+The Tuxedo | 2002 | 60000000
+Two Weeks Notice | 2002 | 60000000
+2 Guns | 2013 | 61000000
+Blades of Glory | 2007 | 61000000
+The American President | 1995 | 62000000
+Austin Powers in Goldmember | 2002 | 63000000
+Hop | 2011 | 63000000
+Jurassic Park | 1993 | 63000000
+Perfume: The Story of a Murderer | 2006 | 63700000
+Apollo 13 | 1995 | 65000000
+Astro Boy | 2009 | 65000000
+Broken Arrow | 1996 | 65000000
+Cliffhanger | 1993 | 65000000
+Death Race | 2008 | 65000000
+Due Date | 2010 | 65000000
+Eyes Wide Shut | 1999 | 65000000
+Fight Club | 1999 | 65000000
+Hudson Hawk | 1991 | 65000000
+Ice Age | 2002 | 65000000
+Jumanji | 1995 | 65000000
+Les Miserables | 2012 | 65000000
+Lincoln | 2012 | 65000000
+Mona Lisa Smile | 2003 | 65000000
+Oliver Twist | 2005 | 65000000
+Primary Colors | 1998 | 65000000
+Red Dawn | 2012 | 65000000
+Saving Private Ryan | 1998 | 65000000
+Step Brothers | 2008 | 65000000
+The Dictator | 2012 | 65000000
+The Long Kiss Goodnight | 1996 | 65000000
+The Mask of Zorro | 1998 | 65000000
+The Matrix | 1999 | 65000000
+The Missing | 2003 | 65000000
+The Santa Clause 2 | 2002 | 65000000
+We Are Marshall | 2006 | 65000000
+What Women Want | 2000 | 65000000
+You&#39;ve Got Mail | 1998 | 65000000
+Zathura: A Space Adventure | 2005 | 65000000
+Abraham Lincoln: Vampire Hunter | 2012 | 67500000
+That&#39;s My Boy | 2012 | 67500000
+Dreamcatcher | 2003 | 68000000
+Mystery Men | 1999 | 68000000
+The Twilight Saga: Eclipse | 2010 | 68000000
+Despicable Me | 2010 | 69000000
+Dinner for Schmucks | 2010 | 69000000
+AVP: Alien vs. Predator | 2004 | 70000000
+Agora | 2009 | 70000000
+Battle: Los Angeles | 2011 | 70000000
+Big Fish | 2003 | 70000000
+Cars | 2006 | 70000000
+Die Hard 2 | 1990 | 70000000
+Doom | 2005 | 70000000
+Escape Plan | 2013 | 70000000
+Hercules | 1997 | 70000000
+Hook | 1991 | 70000000
+I Spy | 2002 | 70000000
+Inglourious Basterds | 2009 | 70000000
+Killer Elite | 2011 | 70000000
+Olympus Has Fallen | 2013 | 70000000
+Osmosis Jones | 2001 | 70000000
+Rock of Ages | 2012 | 70000000
+S.W.A.T. | 2003 | 70000000
+Shrek 2 | 2004 | 70000000
+Sky Captain and the World of Tomorrow | 2004 | 70000000
+Sleepy Hollow | 1999 | 70000000
+Star Trek: Insurrection | 1998 | 70000000
+Stardust | 2007 | 70000000
+The Abyss | 1989 | 70000000
+Underworld: Awakening | 2012 | 70000000
+Vanilla Sky | 2001 | 70000000
+Wall Street: Money Never Sleeps | 2010 | 70000000
+War Horse | 2011 | 70000000
+We Were Soldiers | 2002 | 70000000
+Who Framed Roger Rabbit | 1988 | 70000000
+xXx | 2002 | 70000000
+Signs | 2002 | 70702619
+The Village | 2004 | 71682975
+Braveheart | 1995 | 72000000
+Dr. Dolittle 2 | 2001 | 72000000
+Jarhead | 2005 | 72000000
+The Majestic | 2001 | 72000000
+Funny People | 2009 | 72500000
+The Simpsons Movie | 2007 | 72500000
+Sphere | 1998 | 73000000
+Unbreakable | 2000 | 73243106
+50 First Dates | 2004 | 75000000
+Anna and the King | 1999 | 75000000
+Charlie Wilson&#39;s War | 2007 | 75000000
+Constantine | 2005 | 75000000
+Flight of the Phoenix | 2004 | 75000000
+Grown Ups | 2010 | 75000000
+Hairspray | 2007 | 75000000
+Hollywood Homicide | 2003 | 75000000
+Ice Age: The Meltdown | 2006 | 75000000
+Immortals | 2011 | 75000000
+Independence Day | 1996 | 75000000
+Lady in the Water | 2006 | 75000000
+Madagascar | 2005 | 75000000
+Monkeybone | 2001 | 75000000
+Monster House | 2006 | 75000000
+Munich | 2005 | 75000000
+Now You See Me | 2013 | 75000000
+Shark Tale | 2004 | 75000000
+Spanglish | 2004 | 75000000
+Sucker Punch | 2011 | 75000000
+The Lost World: Jurassic Park | 1997 | 75000000
+The Rock | 1996 | 75000000
+The Terminal | 2004 | 75000000
+Titan A.E. | 2000 | 75000000
+Vertical Limit | 2000 | 75000000
+Virus | 1999 | 75000000
+Wanted | 2008 | 75000000
+X-Men | 2000 | 75000000
+2 Fast 2 Furious | 2003 | 76000000
+Children of Men | 2006 | 76000000
+Despicable Me 2 | 2013 | 76000000
+A Beautiful Mind | 2001 | 78000000
+Cloudy with a Chance of Meatballs 2 | 2013 | 78000000
+Red Dragon | 2002 | 78000000
+The League of Extraordinary Gentlemen | 2003 | 78000000
+The Lion King | 1994 | 79300000
+Batman Returns | 1992 | 80000000
+Bedtime Stories | 2008 | 80000000
+Bewitched | 2005 | 80000000
+Cold Mountain | 2003 | 80000000
+Con Air | 1997 | 80000000
+Conspiracy Theory | 1997 | 80000000
+Daredevil | 2003 | 80000000
+Deep Impact | 1998 | 80000000
+Eagle Eye | 2008 | 80000000
+Evolution | 2001 | 80000000
+Flubber | 1997 | 80000000
+Four Christmases | 2008 | 80000000
+Grown Ups 2 | 2013 | 80000000
+Just Go with It | 2011 | 80000000
+Lilo and Stitch | 2002 | 80000000
+Little Nicky | 2000 | 80000000
+Lost in Space | 1998 | 80000000
+Mars Attacks! | 1996 | 80000000
+Mission: Impossible | 1996 | 80000000
+Nine | 2009 | 80000000
+Red Planet | 2000 | 80000000
+Robots | 2005 | 80000000
+Shutter Island | 2010 | 80000000
+Six Days Seven Nights | 1998 | 80000000
+Something&#39;s Gotta Give | 2003 | 80000000
+Space Jam | 1996 | 80000000
+Spirit: Stallion of the Cimarron | 2002 | 80000000
+Surrogates | 2009 | 80000000
+The Day the Earth Stood Still | 2008 | 80000000
+The Haunting | 1999 | 80000000
+The Hunger Games | 2012 | 80000000
+The Legend of Zorro | 2005 | 80000000
+The Mummy | 1999 | 80000000
+The Postman | 1997 | 80000000
+Thirteen days | 2000 | 80000000
+Timeline | 2003 | 80000000
+Yogi Bear | 2010 | 80000000
+Bruce Almighty | 2003 | 81000000
+The Expendables | 2010 | 82000000
+Herb &amp; Dorothy | 2008 | 82500000
+Jumper | 2008 | 82500000
+Red 2 | 2013 | 84000000
+Scooby-Doo | 2002 | 84000000
+Air Force One | 1997 | 85000000
+Arthur Christmas | 2011 | 85000000
+Cast Away | 2000 | 85000000
+Enchanted | 2007 | 85000000
+Enemy of the State | 1998 | 85000000
+Fast &amp; Furious | 2009 | 85000000
+Hotel Transylvania | 2012 | 85000000
+It&#39;s Complicated | 2009 | 85000000
+Memoirs of a Geisha | 2005 | 85000000
+Mirror Mirror | 2012 | 85000000
+Ocean&#39;s Eleven | 2001 | 85000000
+Open Season | 2006 | 85000000
+Scott Pilgrim vs. the World | 2010 | 85000000
+The Bourne Supremacy | 2004 | 85000000
+The Core | 2003 | 85000000
+The Holiday | 2006 | 85000000
+Tower Heist | 2011 | 85000000
+Hannibal | 2001 | 87000000
+Hannibal | 2012 | 87000000
+Fantastic Four | 2005 | 87500000
+Cinderella Man | 2005 | 88000000
+Twister | 1996 | 88000000
+Artificial Intelligence: AI | 2001 | 90000000
+Atlantis: The Lost Empire | 2001 | 90000000
+Charlie&#39;s Angels | 2000 | 90000000
+Contact | 1997 | 90000000
+Die Hard: With a Vengeance | 1995 | 90000000
+Hollow Man | 2000 | 90000000
+Ice Age: Dawn of the Dinosaurs | 2009 | 90000000
+Lara Croft Tomb Raider: The Cradle of Life | 2003 | 90000000
+Men in Black | 1997 | 90000000
+Mission to Mars | 2000 | 90000000
+Mulan | 1998 | 90000000
+Percy Jackson: Sea of Monsters | 2013 | 90000000
+Rio | 2011 | 90000000
+Sherlock Holmes | 2009 | 90000000
+The Departed | 2006 | 90000000
+The Girl with the Dragon Tattoo | 2009 | 90000000
+The Girl with the Dragon Tattoo | 2011 | 90000000
+The Three Musketeers | 2011 | 90000000
+Toy Story 2 | 1999 | 90000000
+Tropic Thunder | 2008 | 90000000
+Valkyrie | 2008 | 90000000
+Volcano | 1997 | 90000000
+What Lies Beneath | 2000 | 90000000
+A Good Day to Die Hard | 2013 | 92000000
+The Incredibles | 2004 | 92000000
+Rise of the Planet of the Apes | 2011 | 93000000
+Finding Nemo | 2003 | 94000000
+Lara Croft: Tomb Raider | 2001 | 94000000
+The Lord of the Rings: The Return of the King | 2003 | 94000000
+The Lord of the Rings: The Two Towers | 2002 | 94000000
+Black Hawk Down | 2001 | 95000000
+Percy Jackson &amp; the Olympians: The Lightning Thief | 2010 | 95000000
+Sex and the city 2 | 2010 | 95000000
+The Fifth Element | 1997 | 95000000
+The Lovely Bones | 2009 | 95000000
+The Road to El Dorado | 2000 | 95000000
+Unstoppable | 2010 | 95000000
+Gangs of New York | 2002 | 97000000
+Batman Forever | 1995 | 100000000
+Blood Diamond | 2006 | 100000000
+Catwoman | 2004 | 100000000
+Cloudy with a Chance of Meatballs | 2009 | 100000000
+Django Unchained | 2012 | 100000000
+Epic | 2013 | 100000000
+Eragon | 2006 | 100000000
+Green Zone | 2010 | 100000000
+Harry Potter and the Chamber of Secrets | 2002 | 100000000
+Jin ling shi san chai | 2011 | 100000000
+Lemony Snicket&#39;s A Series of Unfortunate Events | 2004 | 100000000
+Peter Pan | 2003 | 100000000
+Son of the Mask | 2005 | 100000000
+Starship Troopers | 1997 | 100000000
+Terminator 2: Judgement Day | 1991 | 100000000
+The Adventures of Pluto Nash | 2002 | 100000000
+The Emperor&#39;s New Groove | 2000 | 100000000
+The Expendables 2 | 2012 | 100000000
+The Hunchback of Notre Dame | 1996 | 100000000
+The Other Guys | 2010 | 100000000
+The Stepford Wives | 2004 | 100000000
+The Tourist | 2010 | 100000000
+The Wolf of Wall Street | 2013 | 100000000
+Treasure Planet | 2002 | 100000000
+True Lies | 1994 | 100000000
+Where the Wild Things Are | 2009 | 100000000
+Casino Royale | 2006 | 102000000
+Cloud Atlas | 2012 | 102000000
+Minority Report | 2002 | 102000000
+Public Enemies | 2009 | 102500000
+Gladiator | 2000 | 103000000
+The Hangover part 3 | 2013 | 103000000
+Gone in Sixty Seconds | 2000 | 103300000
+"I Robot" | 2004 | 105000000
+Stuart Little | 1999 | 105000000
+The Princess and the Frog | 2009 | 105000000
+The Lord of the Rings: The Fellowship of the Ring | 2001 | 109000000
+Around the World in 80 Days | 2004 | 110000000
+Ender&#39;s Game | 2013 | 110000000
+Gravity | 2013 | 110000000
+Home on the Range | 2004 | 110000000
+Kingdom of Heaven | 2005 | 110000000
+Live Free or Die Hard | 2007 | 110000000
+Mr. &amp; Mrs. Smith | 2005 | 110000000
+Night at the Museum | 2006 | 110000000
+Real Steel | 2011 | 110000000
+The A-Team | 2010 | 110000000
+The Aviator | 2004 | 110000000
+The Green Hornet | 2011 | 110000000
+The Matrix Revolutions | 2003 | 110000000
+The Patriot | 2000 | 110000000
+The Smurfs | 2011 | 110000000
+The Smurfs 2 | 2013 | 110000000
+The Taking of Pelham 123 | 2009 | 110000000
+"Monsters Inc." | 2001 | 115000000
+Star Wars: Episode I - The Phantom Menace | 1999 | 115000000
+Star Wars: Episode II - Attack of the Clones | 2002 | 115000000
+Star Wars: Episode III - Revenge of the Sith | 2005 | 115000000
+The Wolverine | 2013 | 115000000
+Knight and Day | 2010 | 117000000
+Charlie&#39;s Angels: Full Throttle | 2003 | 120000000
+Elysium | 2013 | 120000000
+Fantastic Four: Rise of the Silver Surfer | 2007 | 120000000
+Life of Pi | 2012 | 120000000
+Oblivion | 2013 | 120000000
+RoboCop | 1987 | 120000000
+Speed Racer | 2008 | 120000000
+The Chronicles of Riddick | 2004 | 120000000
+The Island | 2005 | 120000000
+Batman &amp; Robin | 1997 | 125000000
+Clash of the Titans | 2010 | 125000000
+Fast Five | 2011 | 125000000
+Godzilla | 1998 | 125000000
+Harry Potter and the Deathly Hallows: Part 1 | 2010 | 125000000
+Harry Potter and the Deathly Hallows: Part 2 | 2011 | 125000000
+Harry Potter and the Sorcerer&#39;s Stone | 2001 | 125000000
+Pirates of the Caribbean: The Curse of the Black Pearl | 2003 | 125000000
+The 13th Warrior | 1999 | 125000000
+The Da Vinci Code | 2006 | 125000000
+The Day After Tomorrow | 2004 | 125000000
+Total Recall | 1990 | 125000000
+Total Recall | 2012 | 125000000
+X2 (X-Men 2) | 2003 | 125000000
+The Matrix Reloaded | 2003 | 127000000
+The Twilight Saga: Breaking Dawn - Part 1 | 2011 | 127500000
+After Earth | 2013 | 130000000
+Australia | 2008 | 130000000
+Harry Potter and the Prisoner of  Azkaban | 2004 | 130000000
+Kung Fu Panda | 2008 | 130000000
+Megamind | 2010 | 130000000
+Puss in Boots | 2011 | 130000000
+R.I.P.D. | 2013 | 130000000
+Salt | 2010 | 130000000
+The Adventures of Tintin | 2011 | 130000000
+The Hunger Games: Catching Fire | 2013 | 130000000
+War of the Worlds | 2005 | 132000000
+Master and Commander: The Far Side of the World | 2003 | 135000000
+Rango | 2011 | 135000000
+The Croods | 2013 | 135000000
+Turbo | 2013 | 135000000
+The Twilight Saga: Breaking Dawn - Part 2 | 2012 | 136200000
+Hulk | 2003 | 137000000
+The Incredible Hulk | 2008 | 137500000
+Stealth | 2005 | 138000000
+Watchmen | 2009 | 138000000
+Spider-Man | 2002 | 139000000
+Armageddon | 1998 | 140000000
+Captain America: The First Avenger | 2011 | 140000000
+Fun with Dick and Jane | 2005 | 140000000
+G.I. Joe: Retaliation | 2013 | 140000000
+Men in Black II | 2002 | 140000000
+Star Trek | 2009 | 140000000
+The Last Samurai | 2003 | 140000000
+Die Another Day | 2002 | 142000000
+Madagascar 3: Europe&#39;s Most Wanted | 2012 | 145000000
+Mission: Impossible - Ghost Protocol | 2011 | 145000000
+Rise of the Guardians | 2012 | 145000000
+Tarzan | 1999 | 145000000
+Flushed Away | 2006 | 149000000
+Angels &amp; Demons | 2009 | 150000000
+Batman Begins | 2005 | 150000000
+Beowulf | 2007 | 150000000
+Bolt | 2008 | 150000000
+Charlie and the Chocolate Factory | 2005 | 150000000
+Frozen | 2010 | 150000000
+Frozen | 2013 | 150000000
+G-Force | 2009 | 150000000
+Hancock | 2008 | 150000000
+Harry Potter and the Goblet of Fire | 2005 | 150000000
+Harry Potter and the Order of the Phoenix | 2007 | 150000000
+I Am Legend | 2007 | 150000000
+Kung Fu Panda 2 | 2011 | 150000000
+Mars Needs Moms | 2011 | 150000000
+Ratatouille | 2007 | 150000000
+The Last Airbender | 2010 | 150000000
+The Wolfman | 2010 | 150000000
+Thor | 2011 | 150000000
+Troy | 2004 | 150000000
+White House Down | 2013 | 150000000
+Wrath of the Titans | 2012 | 150000000
+X-Men Origins: Wolverine | 2009 | 150000000
+Transformers | 2007 | 151000000
+Pearl Harbor | 2001 | 151500000
+The Chronicles of Narnia: The Voyage of the Dawn Treader | 2010 | 155000000
+Fast and Furious 6 | 2013 | 160000000
+Inception | 2010 | 160000000
+Poseidon | 2006 | 160000000
+Shrek the Third | 2007 | 160000000
+The Curious Case of Benjamin Button | 2008 | 160000000
+The Sorcerer&#39;s Apprentice | 2010 | 160000000
+X-Men: First Class | 2011 | 160000000
+Cowboys &amp; Aliens | 2011 | 163000000
+How to Train Your Dragon | 2010 | 165000000
+Shrek Forever After | 2010 | 165000000
+Wreck-It Ralph | 2012 | 165000000
+Iron Man 2 | 2010 | 170000000
+Snow White and the Huntsman | 2012 | 170000000
+Terminator 3: Rise of the Machines | 2003 | 170000000
+The Polar Express | 2004 | 170000000
+Thor: The Dark World | 2013 | 170000000
+Van Helsing | 2004 | 170000000
+G.I. Joe: The Rise of Cobra | 2009 | 175000000
+Monsters vs Aliens | 2009 | 175000000
+Up | 2009 | 175000000
+Waterworld | 1995 | 175000000
+Wild Wild West | 1999 | 175000000
+"The Chronicles of Narnia: The Lion the Witch and the Wardrobe" | 2005 | 180000000
+Hugo | 2011 | 180000000
+Rush Hour 3 | 2007 | 180000000
+WALL-E | 2008 | 180000000
+Brave | 2012 | 185000000
+Indiana Jones and the Kingdom of the Crystal Skull | 2008 | 185000000
+The Dark Knight | 2008 | 185000000
+Iron Man | 2008 | 186000000
+Pacific Rim | 2013 | 190000000
+Star Trek Into Darkness | 2013 | 190000000
+The Great Gatsby | 2013 | 190000000
+World War Z | 2013 | 190000000
+Jack the Giant Slayer | 2013 | 195000000
+Transformers: Dark of the Moon | 2011 | 195000000
+2012 | 2009 | 200000000
+Alice in Wonderland | 2010 | 200000000
+Cars 2 | 2011 | 200000000
+Green Lantern | 2011 | 200000000
+Iron Man 3 | 2013 | 200000000
+Oz the Great and Powerful | 2013 | 200000000
+Prince of Persia: The Sands of Time | 2010 | 200000000
+Skyfall | 2012 | 200000000
+Spider-Man 2 | 2004 | 200000000
+Terminator Salvation | 2009 | 200000000
+Titanic | 1997 | 200000000
+Toy Story 3 | 2010 | 200000000
+Tron Legacy | 2010 | 200000000
+The Golden Compass | 2007 | 205000000
+King Kong | 2005 | 207000000
+Battleship | 2012 | 209000000
+Robin Hood | 2010 | 210000000
+Transformers: Revenge of the Fallen | 2009 | 210000000
+X-Men: The Last Stand | 2006 | 210000000
+Men in Black III | 2012 | 215000000
+The Amazing Spider-Man | 2012 | 220000000
+47 Ronin | 2013 | 225000000
+Man of Steel | 2013 | 225000000
+Pirates of the Caribbean: Dead Man&#39;s Chest | 2006 | 225000000
+The Chronicles of Narnia: Prince Caspian | 2008 | 225000000
+Quantum of Solace | 2008 | 230000000
+Superman Returns | 2006 | 232000000
+Harry Potter and the Half-Blood Prince | 2009 | 250000000
+Pirates of the Caribbean: On Stranger Tides | 2011 | 250000000
+The Hobbit: An Unexpected Journey | 2012 | 250000000
+The Hobbit: The Desolation of Smaug | 2013 | 250000000
+Tangled | 2010 | 260000000
+John Carter | 2012 | 275000000
+The Dark Knight Rises | 2012 | 275000000
+The Lone Ranger | 2013 | 275000000
+Pirates of the Caribbean: At World&#39;s End | 2007 | 300000000
+Avatar | 2009 | 425000000

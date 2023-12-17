@@ -62,6 +62,13 @@ char *input_line(FILE *f)
 
     aux = (char *)malloc(LINE_CHUNK * sizeof(char));
 
+    if(aux == NULL)
+    {
+        perror("Error allocating memory");
+
+        exit(EXIT_FAILURE);
+    }
+
     while(1)
     {
         // citim un chunk de linie
@@ -92,8 +99,6 @@ char *input_line(FILE *f)
             {
                 perror("Error allocating memory");
 
-                free(aux);
-
                 exit(EXIT_FAILURE);
             }
 
@@ -108,21 +113,21 @@ char *input_line(FILE *f)
             {
                 perror("Error reallocating memory");
 
-                free(aux);
-
                 exit(EXIT_FAILURE);
             }
 
             strcat(line, aux);
         }
 
-        free(aux);
+        
 
         if(line[strlen(line) - 1] == '\n')
         {
             break;
         }
     }
+
+    free(aux);
 
 
     return line;
@@ -145,13 +150,6 @@ char **input_lines(FILE *f, uint64_t *size)
         {
             break;
         }
-
-        if(line[0] == '\n')
-        {
-            free(line);
-            continue;
-        }
-
 
         if(used_size == allocated_size)
         {
@@ -283,15 +281,15 @@ int main(void)
 
     lines = input_lines(input, &size);
 
+    uint64_t count = find_word(lines, size, "de");
+
     print_all_lines(lines, size, output);
     
     write_sort(lines, size, "sort.txt");
 
     write_random(lines, size, "random.txt");
-
-
-    uint64_t count = find_word(lines, size, "de");
-    printf("Numarul de aparitii ale cuvantului 'de' este: %lu\n", count);
+    
+    printf("Numarul de aparitii ale cuvantului 'de' este: %llu\n", count);
 
 
     free_all(lines, size);
