@@ -12,3 +12,54 @@ si altul defect.
 - sa se citeasca fisierul de test si sa se afiseze care senzor merge, care are probleme si care e defect.
 - se cere de la tastatura un an si o luna. Se cere sa se afiseze toate valorile senzorilor din acel an/luna.
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdint.h>
+
+typedef struct
+{
+    uint16_t an;
+    uint8_t luna;
+    uint8_t zi;
+    uint8_t idx_senzor;
+    int16_t valoare;
+
+} INREGISTRARE;
+
+FILE *open_file(char *filename, char *mode)
+{
+    FILE *f = fopen(filename, mode);
+    if (f == NULL)
+    {
+        printf("Eroare la deschiderea fisierului %s\n", filename);
+        exit(EXIT_FAILURE);
+    }
+    return f;
+}
+
+void close_file(FILE *f)
+{
+    if(fclose(f) == EOF)
+    {
+        printf("Eroare la inchiderea fisierului\n");
+        exit(EXIT_FAILURE);
+    }
+}
+
+int main(void)
+{
+    FILE *f = open_file("date.bin", "wb");
+
+    uint32_t nr_inregistrari = 6;
+
+    fwrite(&nr_inregistrari, sizeof(uint32_t), 1, f);
+
+    
+
+
+    close_file(f);
+
+    return 0;
+}

@@ -28,7 +28,7 @@ int main(void)
         exit(-1);
     }
 
-
+    fseek(f, 0x00, SEEK_SET);
 
     if(fread(header_field, sizeof(char), 2, f) != 2)
     {
