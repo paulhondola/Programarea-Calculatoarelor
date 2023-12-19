@@ -30,7 +30,7 @@ void close_file(FILE *file)
 
 int main(void)
 {
-    FILE *output = open_file("date.bin", "w");
+    FILE *output = open_file("date.bin", "wb");
 
     uint32_t nr_inregistrari = 6;
 
