@@ -3,7 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+
 #define BUFFER_SIZE 1024
+
+
 int main(int argc, char **argv) 
 {
     FILE *input = NULL;
