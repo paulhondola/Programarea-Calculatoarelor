@@ -5,6 +5,7 @@ Se considera un fisier binar ce contine numere intregi pe 4 bytes. Programul nu 
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <math.h>
 
 #define CHUNK 4096
 
