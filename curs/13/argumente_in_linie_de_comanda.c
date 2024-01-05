@@ -54,7 +54,7 @@ int main(int argc, char **argv) // sau char *argv[] - ambele sunt echivalente - 
     for (int i = 0; i < argc; i++)
     {
         printf("Argumentul %d este: %s\n", i, argv[i]);
-        printf("Lungimea argumentului %d este: %d\n", i, strlen(argv[i]));
+        printf("Lungimea argumentului %d este: %lu\n", i, strlen(argv[i]));
 
     }
 

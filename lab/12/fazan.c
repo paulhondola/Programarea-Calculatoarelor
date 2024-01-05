@@ -64,7 +64,7 @@ char *input_word(void)
 
         word[size++] = c;
 
-        if(c == ' ' || c == '\t' || c == '\n')
+        if(isspace(c))
         {
             break;
         }
@@ -99,8 +99,8 @@ char *fazan_string(void)
     
     if(main_string == NULL)
     {
-        printf("Not enough memory\n");
-        return NULL;
+        perror("Not enough memory\n");
+        exit(-1);
     }
 
     strcpy(main_string, word);
@@ -125,8 +125,8 @@ char *fazan_string(void)
 
             if(main_string == NULL)
             {
-                printf("Not enough memory\n");
-                return NULL;
+                perror("Not enough memory\n");
+                exit(-1);
             }
         }
         

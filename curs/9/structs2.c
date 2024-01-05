@@ -24,5 +24,7 @@ int main(void)
     // (*str).a = 10; ---> nope
     // str->a ---> da
 
+    free(str);
+
     return 0;
 }

@@ -1,7 +1,10 @@
 /*
-Se consideră un fișier csv (comma separated values) în care pe fiecare linie se află mai multe câmpuri separate prin semnul punct-virgulă. Fișierul conține informații statistice oferite de Institutul National de Statistica prin platforma OpenData a Guvernului Romaniei (https://data.gov.ro/) despre plata indemnizațiilor de creșterea copilului pe o anumită lună din anul 2021. Fișierul are următorul cap de tabel ce descrie câmpurile din liniile conținue
+Se consideră un fișier csv (comma separated values) în care pe fiecare linie se află mai multe câmpuri separate prin semnul punct-virgulă. 
+Fișierul conține informații statistice oferite de Institutul National de Statistica prin platforma OpenData a Guvernului Romaniei 
+(https://data.gov.ro/) despre plata indemnizațiilor de creșterea copilului pe o anumită lună din anul 2021. Fișierul are următorul cap de tabel ce descrie câmpurile din liniile conținue
 Judet;Populatie;Beneficiari plãtiti;Beneficiari suspendati la sfârsit de lunã;Suma totalã plãtitã drepturi curente;Alte plãþi
-Programul va citi acest fișier folosind funcțiile dedicate pentru citirea fișierelor text, va extrage câmpurile judet, beneficiari platiti si suma total platita drepturi curente, si va stoca datele într-un tablou alocat dinamic, de structuri de date corespunzătoare, de dimensiune minimă necesară. Se cere să se implementeze tipuri de date utilizator. Se va implementa de asemenea o funcție de sortate dupa judet și o funcție de sortare după suma totala platita drepturi curente. Programul va scrie în fișierul rezultat.txt pe câte un rând diferit judetul cu cea mai mare populatie, judetul cu cea mai mare suma din câmpul alte plati.
+Programul va citi acest fișier folosind funcțiile dedicate pentru citirea fișierelor text, va extrage câmpurile judet, beneficiari platiti si 
+suma total platita drepturi curente, si va stoca datele într-un tablou alocat dinamic, de structuri de date corespunzătoare, de dimensiune minimă necesară. Se cere să se implementeze tipuri de date utilizator. Se va implementa de asemenea o funcție de sortate dupa judet și o funcție de sortare după suma totala platita drepturi curente. Programul va scrie în fișierul rezultat.txt pe câte un rând diferit judetul cu cea mai mare populatie, judetul cu cea mai mare suma din câmpul alte plati.
 
 Fișierul se poate descărca folosind următoarea comandă:
 
@@ -12,6 +15,7 @@ wget http://staff.cs.upt.ro/~valy/pt/indemnizatie.csv
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#include <errno.h>
 
 #define BUFFER 4096
 #define CHUNK 10
@@ -25,7 +29,6 @@ typedef struct
     uint32_t alte_plati;
 
 } DATE_T;
-
 
 
 FILE* open_file(char *filename, char *mode)
@@ -63,7 +66,7 @@ void create_header(FILE* file)
         exit(EXIT_FAILURE);
     }
 
-    printf("JUDET | POPULATIE | BENEFICIARI PLATITI | SUMA TOTALA PLATITA | ALTE PLATI\n");
+    // printf("JUDET | POPULATIE | BENEFICIARI PLATITI | SUMA TOTALA PLATITA | ALTE PLATI\n");
 }
 
 
@@ -95,15 +98,43 @@ int input_item(DATE_T *item, FILE *file)
                 break;
             case 1:
                 item->populatie = (uint32_t)strtol(token, NULL, 10);
+
+                if(errno != 0)
+                {
+                    perror("invalid format");
+                    exit(EXIT_FAILURE);
+                }
+                
                 break;
             case 2:
                 item->beneficiari_platiti = (uint32_t)strtol(token, NULL, 10);
+
+                if(errno != 0)
+                {
+                    perror("invalid format");
+                    exit(EXIT_FAILURE);
+                }
+
                 break;
             case 4:
                 item->suma_totala_platita = (uint32_t)strtol(token, NULL, 10);
+
+                if(errno != 0)
+                {
+                    perror("invalid format");
+                    exit(EXIT_FAILURE);
+                }
+
                 break;
             case 5:
                 item->alte_plati = (uint32_t)strtol(token, NULL, 10);
+
+                if(errno != 0)
+                {
+                    perror("invalid format");
+                    exit(EXIT_FAILURE);
+                }
+
                 break;
             default:
                 break;
@@ -256,7 +287,6 @@ void out(DATE_T *items, uint64_t size)
 
     sort_by_suma_totala_platita(items, size);
     print_items(items, size, file2);
-
     
     close_file(file1);
     close_file(file2);

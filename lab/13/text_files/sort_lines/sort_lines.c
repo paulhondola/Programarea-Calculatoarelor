@@ -55,19 +55,13 @@ void free_all(char **lines, uint64_t size)
 
 char *input_line(FILE *f)
 {
-    char *line = NULL;
-    char *aux = NULL;
+    char *line = malloc(sizeof(char));
+
+    line[0] = 0;
+
+    char aux[LINE_CHUNK];
 
     uint64_t allocated_size = 0;
-
-    aux = (char *)malloc(LINE_CHUNK * sizeof(char));
-
-    if(aux == NULL)
-    {
-        perror("Error allocating memory");
-
-        exit(EXIT_FAILURE);
-    }
 
     while(1)
     {
@@ -80,54 +74,32 @@ char *input_line(FILE *f)
         // daca ultimul caracter este diferit de \n - concatenam chunk-ul citit la linie
 
 
-        char *ptr = fgets(aux, LINE_CHUNK, f);
-
-        if(ptr == NULL)
+        if(fgets(aux, LINE_CHUNK, f) == NULL)
         {
             break;
         }
 
-
         allocated_size += strlen(aux);
         
 
+        line = (char *)realloc(line, allocated_size * sizeof(char));
+
         if(line == NULL)
         {
-            line = (char *)malloc(allocated_size * sizeof(char));
+            perror("Error reallocating memory");
 
-            if(line == NULL)
-            {
-                perror("Error allocating memory");
-
-                exit(EXIT_FAILURE);
-            }
-
-            strcpy(line, aux);
+            exit(EXIT_FAILURE);
         }
 
-        else
-        {  
-            line = (char *)realloc(line, allocated_size * sizeof(char));
+        printf("%s\n", aux);
 
-            if(line == NULL)
-            {
-                perror("Error reallocating memory");
-
-                exit(EXIT_FAILURE);
-            }
-
-            strcat(line, aux);
-        }
-
+        strcat(line, aux);
         
-
         if(line[strlen(line) - 1] == '\n')
         {
             break;
         }
     }
-
-    free(aux);
 
 
     return line;
@@ -146,7 +118,7 @@ char **input_lines(FILE *f, uint64_t *size)
     {
         line = input_line(f);
 
-        if(line == NULL)
+        if(line == NULL || line[0] == 0)
         {
             break;
         }
@@ -166,6 +138,12 @@ char **input_lines(FILE *f, uint64_t *size)
         lines[used_size] = line;
 
         used_size++;
+    }
+
+    if(used_size == 0)
+    {
+        perror("Empty file");
+        exit(EXIT_FAILURE);
     }
 
     lines = (char **)realloc(lines, used_size * sizeof(char *));
@@ -216,7 +194,7 @@ void sort_lines(char **lines, uint64_t size)
 }
 
 
-void write_sort (char **lines, uint64_t size, char *filepath)
+void write_sort(char **lines, uint64_t size, char *filepath)
 {
     FILE *f = open_file(filepath, "w");
 
