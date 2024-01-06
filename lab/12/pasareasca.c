@@ -13,7 +13,7 @@ void edit_string(char **string)
     
     const char *vowels = "aeiouAEIOU";
 
-    int allocated_size = SIZE;
+    int allocated_size = strlen(edit);
 
     for(int i = 0; i < strlen(edit); i++)
     {
@@ -74,17 +74,15 @@ char *input_string(void)
 
     if(string == NULL)
     {
-        printf("Nu s-a putut aloca memorie pentru string.\n");
-        return NULL;
+        perror("Nu s-a putut aloca memorie pentru string.\n");
+        exit(EXIT_FAILURE);
     }
 
     printf("Introduceti un sir de caractere: ");
 
-    fgets(string, SIZE, stdin);
-
-    if(string == NULL)
+    if(fgets(string, SIZE, stdin) == NULL)
     {
-        printf("Nu s-a putut citi sirul de caractere.\n");
+        //printf("Nu s-a putut citi sirul de caractere.\n");
         return NULL;
     }
 
@@ -102,7 +100,7 @@ int main(void)
 
     if(string == NULL)
     {
-        printf("Nu s-a putut citi sirul de caractere.\n");
+        perror("Nu s-a putut citi sirul de caractere.\n");
         return 1;
     }
 
@@ -112,6 +110,7 @@ int main(void)
 
     printf("Sirul modificat este: %s\n", string);
 
+    free(string);
 
     return 0;
 }
