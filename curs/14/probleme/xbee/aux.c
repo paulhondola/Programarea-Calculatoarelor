@@ -2,135 +2,92 @@
 #include <stdlib.h>
 #include "xbee.h"
 
-#define CHUNK 256
-
-FILE *open_file(char *filename, char *mode)
-{
-    FILE *file = fopen(filename, mode);
-    if (file == NULL)
-    {
-        perror(filename);
-        exit(1);
-    }
-
-    return file;
-}
-
-
-void close_file(FILE *file)
-{
-    if(fclose(file) != 0)
-    {
-        printf("Error closing file\n");
-        exit(1);
-    }
-}
-
-// SOF - 7E - 1 byte
+// 7E - 1 byte
 // LEN - 1 byte
 // DATA - LEN bytes
 // CHECKSUM - 2 byte
 
-/*
-    uint8_t id;
-    uint8_t start_of_frame;
-    uint8_t length;
-    uint8_t buffer[BUFFER];
-    uint16_t check_sum;
-    uint16_t calculated_check_sum;
-*/
-
-uint8_t check_frame_sum(FRAME_DATA *frame_data)
+void calculate_check_sum(FRAME_DATA *frame_data)
 {
     frame_data->calculated_check_sum = 0;
-
     for(uint8_t i = 0; i < frame_data->length; i++)
     {
         frame_data->calculated_check_sum += frame_data->buffer[i];
     }
-
-    return frame_data->calculated_check_sum == frame_data->check_sum;
 }
 
-FRAME_DATA *input_frame_data(char *filename, uint64_t *size)
+
+FRAME_DATA *input_frame_data(const char *filename, uint64_t *size)
 {
     FILE *file = open_file(filename, "rb");
-    FILE *log_file = open_file("logs.txt", "w");
+    
+    FRAME_DATA *frame_data = malloc(550000 * sizeof(FRAME_DATA));
 
-    FRAME_DATA input_frame;
-    FRAME_DATA *frame_data = NULL;
+    if(frame_data == NULL)
+    {
+        printf("Error allocating memory\n");
+        exit(1);
+    }
 
     uint64_t counter = 0;
-
-    uint8_t used_size = 0;
-    uint8_t allocated_size = 0;
     
+    FRAME_DATA input;
 
     while(1)
     {
-        if(feof(file) != 0)
+        input.id = counter;
+
+        if(fread(&input.start_of_frame, sizeof(uint8_t), 1, file) != 1)
         {
-            fprintf(log_file, "End of file\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        input_frame.id = counter;
-
-        if(fread(&input_frame.start_of_frame, sizeof(uint8_t), 1, file) != 1)
+        if(input.start_of_frame != START_OF_FRAME)
         {
-            fprintf(log_file, "Error reading start of frame\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        if(input_frame.start_of_frame != START_OF_FRAME)
+        if(fread(&input.length, sizeof(uint8_t), 1, file) != 1)
         {
-            fprintf(log_file, "Invalid start frame\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        if(fread(&input_frame.length, sizeof(uint8_t), 1, file) != 1)
+        if(input.length > BUFFER)
         {
-            fprintf(log_file, "Error reading length\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        if(input_frame.length > BUFFER)
+        if(fread(input.buffer, sizeof(uint8_t), input.length, file) != input.length)
         {
-            fprintf(log_file, "Invalid length\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        if(fread(input_frame.buffer, sizeof(uint8_t), input_frame.length, file) != input_frame.length)
+        if(fread(&input.check_sum, sizeof(uint16_t), 1, file) != 1)
         {
-            fprintf(log_file, "Error reading buffer\n");
+            check_end_of_file(file, counter);
             break;
         }
 
-        if(fread(&input_frame.check_sum, sizeof(uint16_t), 1, file) != 1)
+        calculate_check_sum(&input);
+
+        if(input.check_sum != input.calculated_check_sum)
         {
-            fprintf(log_file, "Error reading checksum\n");
-            break;
+            print_to_file("logs.txt", &input);
         }
 
-        if(used_size == allocated_size)
-        {
-            allocated_size += CHUNK;
-            frame_data = realloc(frame_data, allocated_size * sizeof(FRAME_DATA));
-            if(frame_data == NULL)
-            {
-                fprintf(log_file, "Error reallocating memory\n");
-                exit(-1);
-            }
-        }
-
-        frame_data[used_size++] = input_frame;
+        frame_data[counter++] = input;
     }
 
-
-    *size = used_size;
+    *size = counter;
 
     close_file(file);
 
     return frame_data;
 }
+
 

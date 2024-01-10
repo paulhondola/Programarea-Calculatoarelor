@@ -5,11 +5,7 @@
 #include <stdint.h>
 
 #define START_OF_FRAME 0x7E
-#define BUFFER 100
-
-FILE *open_file(char *filename, char *mode);
-
-void close_file(FILE *file);
+#define BUFFER 255
 
 typedef struct 
 {
@@ -22,6 +18,15 @@ typedef struct
 
 } FRAME_DATA;
 
-FRAME_DATA *input_frame_data(char *filename, uint64_t *size);
+
+FILE *open_file(const char *file_name, const char *mode);
+
+void close_file(FILE *file);
+
+FRAME_DATA *input_frame_data(const char *filename, uint64_t *size);
+
+void check_end_of_file(FILE *file, uint64_t counter);
+
+void print_to_file(const char *file_path, const FRAME_DATA *frame_data);
 
 #endif
