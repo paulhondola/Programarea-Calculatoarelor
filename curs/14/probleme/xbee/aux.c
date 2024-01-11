@@ -21,7 +21,7 @@ FRAME_DATA *input_frame_data(const char *filename, uint64_t *size)
 {
     FILE *file = open_file(filename, "rb");
     
-    FRAME_DATA *frame_data = malloc(550000 * sizeof(FRAME_DATA));
+    FRAME_DATA *frame_data = malloc(100000 * sizeof(FRAME_DATA));
 
     if(frame_data == NULL)
     {
@@ -75,11 +75,6 @@ FRAME_DATA *input_frame_data(const char *filename, uint64_t *size)
 
         calculate_check_sum(&input);
 
-        if(input.check_sum != input.calculated_check_sum)
-        {
-            print_to_file("logs.txt", &input);
-        }
-
         frame_data[counter++] = input;
     }
 
@@ -91,3 +86,17 @@ FRAME_DATA *input_frame_data(const char *filename, uint64_t *size)
 }
 
 
+void print_logs(const char *file_path_good, const char *file_path_bad, const FRAME_DATA *frame_data, const uint64_t size)
+{
+    for(uint64_t i = 0; i < size; i++)
+    {
+        if(frame_data[i].start_of_frame == START_OF_FRAME && frame_data[i].check_sum == frame_data[i].calculated_check_sum)
+        {
+            print_to_file(file_path_good, &frame_data[i]);
+        }
+        else
+        {
+            print_to_file(file_path_bad, &frame_data[i]);
+        }
+    }
+}

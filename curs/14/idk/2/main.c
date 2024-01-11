@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <math.h>
+
 #define CHUNK 1024
 
 FILE *open_file(const char *file_path, const char *mode)

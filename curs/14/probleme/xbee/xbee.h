@@ -29,4 +29,6 @@ void check_end_of_file(FILE *file, uint64_t counter);
 
 void print_to_file(const char *file_path, const FRAME_DATA *frame_data);
 
+void print_logs(const char *file_path_good, const char *file_path_bad, const FRAME_DATA *frame_data, const uint64_t size);
+
 #endif
