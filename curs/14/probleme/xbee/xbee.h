@@ -25,6 +25,8 @@ void close_file(FILE *file);
 
 FRAME_DATA *input_frame_data(const char *filename, uint64_t *size);
 
+void reset_file(const char *file_path);
+
 void check_end_of_file(FILE *file, uint64_t counter);
 
 void print_to_file(const char *file_path, const FRAME_DATA *frame_data);

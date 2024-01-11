@@ -15,6 +15,9 @@ int main(void)
     uint64_t size = 0;
     FRAME_DATA *frame_data = input_frame_data("xbee.bin", &size);
 
+    reset_file("xbee_good.txt");
+    reset_file("xbee_bad.txt");
+
     print_logs("xbee_good.txt", "xbee_bad.txt", frame_data, size);
 
     free(frame_data);

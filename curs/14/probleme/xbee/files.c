@@ -24,12 +24,20 @@ void close_file(FILE *file)
     }
 }
 
+
 void check_end_of_file(FILE *file, uint64_t counter)
 {  
     if(feof(file) != 0)
     {
         fprintf(stderr, "Successful reads, %llu \nEnd of file\n", counter);
     }
+}
+
+
+void reset_file(const char *file_path)
+{
+    FILE *file = open_file(file_path, "w");
+    close_file(file);
 }
 
 void print_to_file(const char *file_path, const FRAME_DATA *frame_data)
@@ -39,10 +47,12 @@ void print_to_file(const char *file_path, const FRAME_DATA *frame_data)
     fprintf(log_file, "Start of frame: %02X\n", frame_data->start_of_frame);
     fprintf(log_file, "Length: %02X\n", frame_data->length);
     fprintf(log_file, "Buffer: ");
+
     for(uint8_t i = 0; i < frame_data->length; i++)
     {
         fprintf(log_file, "%02X ", frame_data->buffer[i]);
     }
+
     fprintf(log_file, "\n");
     fprintf(log_file, "Check sum: %02X\n", frame_data->check_sum);
     fprintf(log_file, "Check sum calculated: %02X\n", frame_data->calculated_check_sum);
