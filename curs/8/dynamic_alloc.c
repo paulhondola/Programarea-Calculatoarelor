@@ -18,8 +18,7 @@ int main(void)
     // free - elibereaza un bloc de memorie
 
     // realloc - realoca un bloc de memorie - pentru a creste / micsora dimensiunea
-
-
+    
 
     // int *int_ptr = NULL;
 

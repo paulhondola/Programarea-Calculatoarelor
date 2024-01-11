@@ -19,7 +19,7 @@ void close_file(FILE *file)
 {
     if(fclose(file) != 0)
     {
-        printf("Error closing file\n");
+        fprintf(stderr, "Error closing file\n");
         exit(1);
     }
 }

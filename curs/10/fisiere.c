@@ -47,7 +47,7 @@ int main(void)
         printf("fisier deschis cu succes\n");
     }
 
-
+    
     // fgetc - citeste un caracter din fisier - returneaza EOF cand ajunge la finalul fisierului
 
     /*
