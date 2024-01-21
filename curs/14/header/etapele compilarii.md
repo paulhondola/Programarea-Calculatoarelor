@@ -31,10 +31,13 @@ flagurile de debug apar in codul obiect (object file)
 
 `int functie(int a, int b);` - declararea functiei (antetul)
 
-`int functie() 
+```
+int functie() 
 {
     ceva
-}` - definirea functiei (corpul)
+}
+``` 
+- definirea functiei (corpul)
 
 - definirea - tip de data, nume, memorie
 
