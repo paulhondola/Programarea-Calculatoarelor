@@ -15,43 +15,17 @@ producator model pret_de_furnizare tip_de_incarcare tip_afisaj numar_programe se
 7. Să se afișeze toate mașinile de spălat de la un anumit producător precizând tipul de încărcare.
 8. Iesire
 */
+#include "header.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdint.h>
-
-typedef enum {FRONTALA, VERTICALA} TIP_INCARCARE;
-
-typedef union
+FILE *open_file(char *filename, char *mode)
 {
-    struct
+    FILE *file = fopen(filename, mode);
+    if (file == NULL)
     {
-        int capacitate;
-        char clasa_eficienta;
-        int programe;
-    } frontala;
-
-    struct
-    {
-        char tip_afisaj[20];
-        int nr_programe;
-        int selector_centrifugare;
-        int nivel_zgomot;
-    } verticala;
-    
-} DETALII;
-
-typedef struct
-{
-    char producator[20];
-    char model[20];
-    float pret_furnizor;
-    float pret_vanzare;
-    float greutate;
-    TIP_INCARCARE tip_incarcare;
-    DETALII detalii;
-
-} MASINA;
+        perror(filename);
+        exit(EXIT_FAILURE);
+    }
+    return file;
+}
 
 
