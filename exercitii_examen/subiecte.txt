@@ -1,0 +1,54 @@
+TEST 2
+Se citesc 2 vectori A si B dintr-un fisier pana la EOF. Sa se realizeze o functie de citire din fisier cu 3 parametri(vectorul A, vectorul B, dimensiunea comuna). Apoi, toate numerele din vectorul A care au paritate para pe biti (adica daca au un nr par de biti de 1) sa fie adaugate la vectorul B, avand grija sa nu fie depasita memoria, iar la final sa se afiseze vectorul B.
+
+Se dau 2 tablouri pe 32 de biti. Se adauga in tabloul B numerele din tabloul A care sunt pare pe biti. Programul se va testa prin redirectare de fisier si nu prin numere citite de la tastatura.
+
+Se cere sa se scrie o funcie care primeste un vector si dimensiunea sa ca parametri si numara cate numere impare se afla pe pozitii pare. Vectorul se populeaza cu numere redirectate dintr-un fisier si se salveaza pana la EOF sau pana ce nu mai este loc in vector (se hardcodeaza o dimenziune cu #define).
+
+Se cieste un vector de numere intregi fara semn pe 16 biti de dimensiune nedefinita,si se formeaza un numar intreg fara semn pe 32 biti care are pe cei mai semnificativi 16 biti cel mai mare numar impar din vector,iar pe restul 16,pozitia din vector la care se gaseste cel mai mare numar impar.Rezolvarea se face folosind doar pointeri(fara indecsi).Se trateaza situatiile in care dimensiunea vectorului este prea mare.(se stabilieste o limita).
+
+Se da un fișier. Scrieți o funcție care  sa afle numărul maxim impar și poziția sa și sa se afișeze. Funcția trebuie sa returneze un număr pe 32 de biți în care pe cei 16 cei mai semnificativi biți este numărul maxim impar, iar pe cei 16 cei mai puțin semnificativi biți este poziția acestuia. 
+
+Se citește un vector de numere intregi dintr-un fisier. Se cere sa se elimine din vector numerele divizibile cu 3 fără a modifica ordinea elementelor. Se va utiliza doar aritmetica cu pointeri (fara indecși). Dimensiunea maxima a vectorului va fi data printr-un macro(#define SIZE), iar pentru testare se va folosi redirectarea standard. Se vor folosi funcții pentru citire, prelucrare și afisare.
+
+TEST 3
+Implementati o functie numita Cifrul_lui_Cezar care are ca parametru un string si o cheie (nr de tip int) dupa care realizeaza codificarea. Cheia = cu cate pozitii se shiftuieste fiecare litera la dreapta. Note: se va aloca dinamic noul string obtinut
+ex: String: qAna  Cheie:2 -> Output: Cpc
+
+Sa se scrie o functie care primeste ca argumente 2 fisiere: source si destination. sa se scrie in fisierul destination suma numerelor gasite in textul din fisierul source si apoi continutul fisierului fara acele numere. antentul functiei: void addNumbers(char *source, char *dest). Sa se scrie folosind minimul de memorie, intr-un mod eficient.
+input source: Ana7 a4re mere9.
+output dest: 18
+                    Ana are mere.
+
+Se cere sa se scrie o functie care prelucreaza un sir de caractere astfel: fiecare caracter care nu e litera se inlocuieste cu valoarea sa din tabelul ASCII in format hexazecimal intre paranteze patrate si precedat de 0x. 
+EX: “ana are mere, pere!” => “ana[0x20]are[0x20]mere[0x2C][0x20]pere[0x21]”
+
+Sa se scrie o implementare proprie a functiei strcat (denumita mystrcat) din biblioteca standard string.h cu diferenta ca rezultatul concatenarii este returnat ca un string alocat dinamic. Pentru implementare, se interzice utilizarea oricarei functii standard de prelucrare de string-uri din biblioteca string.h. Pentru simplificarea acestei cerinte se recomanda nici sa nu se includa deloc in program biblioteca string.h. Functia se va testa prin string-uri citite de la tastatura. Programul se va termina fara memory leaks. Se vor verifica si testa corespunzator toate cazurile de eroare posibile.
+
+Se da fisierul “random_text_numbers.txt” si se cere sa se scrie intr-un alt fisier pe primul rand suma tuturor numerelor intregi din fisier,urmat de textul ramas prin eliminarea numerelor.Se puncteaza citirea eficienta din fisier.
+
+
+Fie un oras de extraterestri. Un oras are: nume si un vector alocat dinamic cu extraterestri. Fiecare extraterestru are: nume (maxim 20 de caractere), culoare (rosu, verde sau albastru), data nasterii (zi, luna si an) si daca este sau nu, membru in Senatul Extraterestrilor. Sa se implementeze cat mai abstract toate structurile de date din problema si sa se scrie o functie care primeste ca parametru un oras de extraterestrii si returneaza un pointer la un alt oras de extraterestrii care contine aceeasi extraterestrii ca cel primit ca parametru, sortati in ordine alfabetica.
+Se va testa programul cu date hard-codate (setate in codul sursa), sau prin citire din fisier/tastatura.
+
+Intr-un fișier se scriu datele când concurenții termina o cursa. În alt fișier se afișează pe prima linie timpul cel mai rapid în care cineva termina cursa, iar pe restul liniilor diferența de timp. (nu mai știu sigur dacă în exemplul dat la test componentele din timp se luau cu 0 în față dacă erau mai mici decat 10 sau nu) 
+Ex : 
+fișier.in 
+    04:05:31
+    03:02:01
+    10:18:43
+fișier.out 
+    03:02:01
++  01:03:30
++  07:16:42
+ 
+Se da o functie care primeste ca parametrii: calea catre un fisier de intrare, calea catre un fisier de iesire si un nr n. Sa se afiseze in fisierul de iesire caracterele de pe pozitiile 0, 1•n, 2•n, 3•n, … din fisierul de intrare.
+
+Să se implementeze o funcție transform(const char *srcfile, const char *destfile) care primeste ca parametrii cai către un fișier de intrare și un fisier de ieșire. Programul citește din fisierul de intrare numere pe 32 de biti fără semn în format hexazecimal și afișează în fisierul de ieșire numerele transformate în binar, cu prefixul “0b”. Se vor folosi cât mai multe funcții în implementarea programului. Se va testa programul cu fisierul de intrare “nr_hex.txt”.
+Exemplu: 1A2B3546 -> 0b 0001 1010 0010 1011 0011 0101 0100 0110
+(Am pus spații pentru a vedea exact cum se transforma fiecare cifra în binar, dar nu e neapărat nevoie)
+Să se implementeze o funcție void transform(const char *srcfile, const char *destfile) care primeste ca parametrii cai către un fișier de intrare și un fișier de ieșire. Programul citește din fișierul de intrare un text cu caractere și spații și transformă prima literă a fiecărui cuvânt în literă mare, iar dacă nu este literă caracterul rămâne neschimbat. Se va scrie în fișierul de ieșire acest șir. Obs. pe fiecare linie pot fi mai multe cuvinte și pot exista și linii vide. Citirea din fișier trebuie făcută cât mai eficient (cu chunk)
+	ex: la ^masa sta Laura                  La ^masa Sta Laura
+	         in Oras #ste O cASa                 In Oras #ste O CASa
+Sa se încerce problema de mai sus și pentru transformarea tuturor literelor mici în litere mari, indiferent de poziția lor în șir (nu mai este necesar să transformăm doar prima literă)
+

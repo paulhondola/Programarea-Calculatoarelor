@@ -1,0 +1,16 @@
+City name: Alba Iulia
+
+Name: Niiga Dan
+Color: Blue
+Date of birth: 29/02/6969
+Senate member: Yes
+
+Name: Pol Petrol
+Color: Red
+Date of birth: 19/08/2004
+Senate member: No
+
+Name: Random Name
+Color: Green
+Date of birth: 31/12/27204
+Senate member: No
