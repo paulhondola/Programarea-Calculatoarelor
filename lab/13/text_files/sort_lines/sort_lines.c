@@ -118,8 +118,9 @@ char **input_lines(FILE *f, uint64_t *size)
     {
         line = input_line(f);
 
-        if(line == NULL || line[0] == 0)
+        if(line[0] == 0)
         {
+            free(line);
             break;
         }
 

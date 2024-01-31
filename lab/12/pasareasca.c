@@ -7,13 +7,24 @@
 #define CHUNK 20
 
 
-void edit_string(char **string)
+char * edit_string(char *string)
 {
-    char *edit = *string;
+    char *edit = malloc((strlen(string) + 1) * sizeof(char));
+
+    if(edit == NULL)
+    {
+        printf("Nu s-a putut aloca memorie pentru edit.\n");
+        free(edit);
+        exit(EXIT_FAILURE);
+    }
+
+    strcpy(edit, string);
     
     const char *vowels = "aeiouAEIOU";
 
     int allocated_size = strlen(edit);
+
+    char *aux = NULL;
 
     for(int i = 0; i < strlen(edit); i++)
     {
@@ -29,7 +40,8 @@ void edit_string(char **string)
                 if(edit == NULL)
                 {
                     printf("Nu s-a putut realoca memorie pentru string.\n");
-                    return;
+                    free(aux);
+                    exit(EXIT_FAILURE);
                 }
             }
 
@@ -37,12 +49,13 @@ void edit_string(char **string)
             
             // move the string to the right
 
-            char *aux = malloc((strlen(edit)) * sizeof(char));
+            aux = realloc(aux, (strlen(edit)) * sizeof(char));
 
             if(aux == NULL)
             {
                 printf("Nu s-a putut aloca memorie pentru aux.\n");
-                return;
+                free(aux);
+                exit(EXIT_FAILURE);
             }
 
             strcpy(aux, edit + i + 1);
@@ -62,9 +75,11 @@ void edit_string(char **string)
             
         }
     }
-    
 
-    *string = edit;
+    if(aux != NULL)
+        free(aux);
+
+    return edit;
 }
 
 
@@ -106,11 +121,12 @@ int main(void)
 
     printf("Sirul citit este: %s\n", string);
     
-    edit_string(&string);
+    char * edit = edit_string(string);
 
-    printf("Sirul modificat este: %s\n", string);
+    printf("Sirul modificat este: %s\n", edit);
 
     free(string);
+    free(edit);
 
     return 0;
 }

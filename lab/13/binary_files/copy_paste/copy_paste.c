@@ -6,7 +6,7 @@ Sa se scrie si testeze o functie ce primeste ca argument o cale de fisier sursa 
 #include <stdint.h>
 #include <stdlib.h>
 
-#define CHUNK 4096
+#define CHUNK 1024
 
 FILE *open_file(char *filepath, char *mode)
 {

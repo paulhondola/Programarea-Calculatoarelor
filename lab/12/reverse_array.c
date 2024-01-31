@@ -46,5 +46,7 @@ int main(void)
         printf("%d ", numbers[i]);
     }
 
+    if(numbers != NULL)
+        free(numbers);
     return 0;
 }

@@ -133,5 +133,7 @@ int main(void)
     close_file(input);
 
     close_file(output);
+
+    free(array);
     return 0;
 }
